@@ -1,0 +1,73 @@
+backend_args:
+- --dtype
+- bfloat16
+- --tensor-parallel-size
+- '1'
+- --max-model-len
+- '16384'
+- --gpu-memory-utilization
+- '0.85'
+- --max-num-seqs
+- '64'
+- --max-num-batched-tokens
+- '8192'
+- --enable-chunked-prefill
+- --disable-prefix-caching
+- --enable-request-id-headers
+client_deadline_seconds: 60.0
+concurrent_gpu_trials: false
+cpu_threads: 4
+gateway:
+  aging_threshold_ms: 2000
+  backend_timeout_seconds: 120.0
+  backend_url: http://127.0.0.1:8000
+  cancel_path_verified: true
+  cost_intercept_ms: 0.01
+  event_log: artifacts/development/gateway-3/gateway_events.jsonl
+  max_inflight: 64
+  max_output_tokens: 512
+  max_prompt_tokens: 8192
+  model: admission-7b
+  output_ms_per_token: 9.760444546014249
+  policy: cost_aging
+  prompt_ms_per_token: 0.07981239198237576
+  queue_limit: 256
+  queue_timeout_ms: 60000
+  tau_ms: 250.0
+  work_budget_ms: 45209.44578143134
+gpu_slots:
+- backend_port: 8030
+  gateway_port: 8083
+  gpu_uuid: GPU-PUBLIC-DEVICE-0
+  seeds:
+  - 4401
+gpu_uuid: GPU-PUBLIC-DEVICE-0
+loads:
+- near_capacity
+model: admission-7b
+model_path: /models/Qwen2.5-7B-Instruct
+native:
+  extra_args:
+  - --max-num-active-seqs
+  - '64'
+  - --max-num-queued-reqs
+  - '272'
+  - --max-num-queued-tokens
+  - '524288'
+  policy: fcfs
+prompts: artifacts/traces/prompts.json
+reference_rate: 4.0
+seeds:
+- 4401
+slo_ms:
+  D:
+    e2e_ms: 15000
+    ttft_ms: 500
+  P:
+    e2e_ms: 8000
+    ttft_ms: 2000
+  S:
+    e2e_ms: 5000
+    ttft_ms: 500
+trace_dir: artifacts/traces
+validation_gpu_uuid: GPU-PUBLIC-DEVICE-0

@@ -1,0 +1,12 @@
+{
+  "vllm": "0.33.0",
+  "serve_help_returncode": 0,
+  "flags": {
+    "--max-num-queued-reqs": true,
+    "--max-num-queued-tokens": true,
+    "--max-num-active-seqs": true,
+    "--scheduling-policy": true,
+    "--disable-prefix-caching": true,
+    "--enable-chunked-prefill": true
+  }
+}

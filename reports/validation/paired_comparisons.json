@@ -1,0 +1,86 @@
+[
+  {
+    "candidate": "B1",
+    "baseline": "B0",
+    "load": "near_capacity",
+    "paired_runs": 1,
+    "pairs": [
+      {
+        "seed": 4401,
+        "baseline_goodput": 2.5,
+        "candidate_goodput": 2.5,
+        "difference_req_s": 0.0,
+        "relative_change": 0.0
+      }
+    ],
+    "median_paired_difference_req_s": 0.0,
+    "range_paired_difference_req_s": [
+      0.0,
+      0.0
+    ],
+    "median_paired_relative_change": 0.0
+  },
+  {
+    "candidate": "B2",
+    "baseline": "B0",
+    "load": "near_capacity",
+    "paired_runs": 1,
+    "pairs": [
+      {
+        "seed": 4401,
+        "baseline_goodput": 2.5,
+        "candidate_goodput": 0.7555555555555555,
+        "difference_req_s": -1.7444444444444445,
+        "relative_change": -0.6977777777777778
+      }
+    ],
+    "median_paired_difference_req_s": -1.7444444444444445,
+    "range_paired_difference_req_s": [
+      -1.7444444444444445,
+      -1.7444444444444445
+    ],
+    "median_paired_relative_change": -0.6977777777777778
+  },
+  {
+    "candidate": "P",
+    "baseline": "B2",
+    "load": "near_capacity",
+    "paired_runs": 1,
+    "pairs": [
+      {
+        "seed": 4401,
+        "baseline_goodput": 0.7555555555555555,
+        "candidate_goodput": 1.0444444444444445,
+        "difference_req_s": 0.288888888888889,
+        "relative_change": 0.3823529411764708
+      }
+    ],
+    "median_paired_difference_req_s": 0.288888888888889,
+    "range_paired_difference_req_s": [
+      0.288888888888889,
+      0.288888888888889
+    ],
+    "median_paired_relative_change": 0.3823529411764708
+  },
+  {
+    "candidate": "P",
+    "baseline": "B0",
+    "load": "near_capacity",
+    "paired_runs": 1,
+    "pairs": [
+      {
+        "seed": 4401,
+        "baseline_goodput": 2.5,
+        "candidate_goodput": 1.0444444444444445,
+        "difference_req_s": -1.4555555555555555,
+        "relative_change": -0.5822222222222222
+      }
+    ],
+    "median_paired_difference_req_s": -1.4555555555555555,
+    "range_paired_difference_req_s": [
+      -1.4555555555555555,
+      -1.4555555555555555
+    ],
+    "median_paired_relative_change": -0.5822222222222222
+  }
+]

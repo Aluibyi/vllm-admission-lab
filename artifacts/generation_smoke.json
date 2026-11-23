@@ -1,0 +1,14 @@
+{
+  "prompt_tokens": 512,
+  "max_tokens": 128,
+  "ttft_ms": 88.25793606229126,
+  "e2e_ms": 1315.8947170013562,
+  "usage": {
+    "prompt_tokens": 512,
+    "total_tokens": 640,
+    "completion_tokens": 128
+  },
+  "finish_reason": "length",
+  "verified": true,
+  "scope": "Separate real generation; not a calibration or formal trial"
+}

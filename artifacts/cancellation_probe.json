@@ -1,0 +1,26 @@
+{
+  "request_id": "cancel-probe-1794981123291244011",
+  "verified": true,
+  "method": "isolated streaming connection close; running before and idle after",
+  "samples": [
+    {
+      "phase": "before_close",
+      "running": 1.0,
+      "since_first_seconds": 0.06732532801106572
+    }
+  ],
+  "observed_running_before_close": true,
+  "idle_after_close_seconds": 0.5559464480029419,
+  "post_cancel_request": {
+    "prompt_tokens": 512,
+    "max_tokens": 128,
+    "ttft_ms": 51.37980205472559,
+    "e2e_ms": 1279.4256400084123,
+    "usage": {
+      "prompt_tokens": 512,
+      "total_tokens": 640,
+      "completion_tokens": 128
+    },
+    "finish_reason": "length"
+  }
+}

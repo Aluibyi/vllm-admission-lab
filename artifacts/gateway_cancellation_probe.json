@@ -1,0 +1,54 @@
+{
+  "verified": true,
+  "method": "isolated gateway streaming close; reservation held before, zero after; backend running then idle",
+  "request_id": "gateway-cancel-1794981126311989725",
+  "observed_running_and_reserved_before_close": true,
+  "before_close_state": {
+    "policy": "cost_aging",
+    "queued": 0,
+    "paused": false,
+    "inflight": 1,
+    "reserved_cost_ms": 5038.221552254272,
+    "max_inflight": 64,
+    "work_budget_ms": 45209.44578143134,
+    "submitted": 1,
+    "admitted": 1,
+    "released": 0,
+    "cancelled": 0,
+    "queue_timeout": 0,
+    "rejected": 0,
+    "log_dropped": 0,
+    "cancel_path_verified": true
+  },
+  "gateway_clear_after_close_seconds": 0.05804268503561616,
+  "backend_idle_after_close_seconds": 0.6162751620868221,
+  "post_cancel_request": {
+    "prompt_tokens": 512,
+    "max_tokens": 128,
+    "ttft_ms": 57.9430180368945,
+    "e2e_ms": 1286.2782240845263,
+    "usage": {
+      "prompt_tokens": 512,
+      "total_tokens": 640,
+      "completion_tokens": 128
+    },
+    "finish_reason": "length"
+  },
+  "final_gateway_state": {
+    "policy": "cost_aging",
+    "queued": 0,
+    "paused": false,
+    "inflight": 0,
+    "reserved_cost_ms": 0.0,
+    "max_inflight": 64,
+    "work_budget_ms": 45209.44578143134,
+    "submitted": 2,
+    "admitted": 2,
+    "released": 2,
+    "cancelled": 0,
+    "queue_timeout": 0,
+    "rejected": 0,
+    "log_dropped": 0,
+    "cancel_path_verified": true
+  }
+}

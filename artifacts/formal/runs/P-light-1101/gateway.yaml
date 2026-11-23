@@ -1,0 +1,17 @@
+aging_threshold_ms: 2000
+backend_timeout_seconds: 120.0
+backend_url: http://127.0.0.1:8000
+cancel_path_verified: true
+cost_intercept_ms: 0.01
+event_log: artifacts/formal/runs/P-light-1101/gateway_events.jsonl
+max_inflight: 64
+max_output_tokens: 512
+max_prompt_tokens: 8192
+model: admission-7b
+output_ms_per_token: 9.760444546014249
+policy: cost_aging
+prompt_ms_per_token: 0.07981239198237576
+queue_limit: 256
+queue_timeout_ms: 60000
+tau_ms: 250.0
+work_budget_ms: 45209.44578143134

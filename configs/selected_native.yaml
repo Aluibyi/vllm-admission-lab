@@ -1,0 +1,8 @@
+extra_args:
+- --max-num-active-seqs
+- '64'
+- --max-num-queued-reqs
+- '272'
+- --max-num-queued-tokens
+- '524288'
+policy: fcfs

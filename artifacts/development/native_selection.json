@@ -1,0 +1,441 @@
+{
+  "selected": {
+    "name": "native-1",
+    "rate": 4.4,
+    "config": {
+      "aging_threshold_ms": 2000,
+      "backend_timeout_seconds": 120.0,
+      "backend_url": "http://127.0.0.1:8000",
+      "cancel_path_verified": false,
+      "cost_intercept_ms": 0.01,
+      "event_log": "artifacts/gateway_events.jsonl",
+      "max_inflight": 16,
+      "max_output_tokens": 512,
+      "max_prompt_tokens": 8192,
+      "model": "admission-7b",
+      "output_ms_per_token": 9.760444546014249,
+      "policy": "cost_aging",
+      "prompt_ms_per_token": 0.07981239198237576,
+      "queue_limit": 256,
+      "queue_timeout_ms": 60000,
+      "tau_ms": 250.0,
+      "work_budget_ms": 11302.361445357836
+    },
+    "manifest": {
+      "run_id": "native-1",
+      "url": "http://127.0.0.1:8000/v1/completions",
+      "model": "admission-7b",
+      "trace_sha256": "47e7ac88733c1dde0038a7638d1b0c4aa71bee9ccd0f1c786303556bfba3b874",
+      "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+      "load": "calibration",
+      "seed": 2201,
+      "offered": 84,
+      "arrival_window_seconds": 20,
+      "total_seconds_including_drain": 24.74436507606879,
+      "send_lag_p95_ms": 6.837348153738349,
+      "native_priority": false,
+      "config": {
+        "backend_url": "http://127.0.0.1:8000",
+        "model": "admission-7b",
+        "policy": "cost_aging",
+        "max_inflight": 16,
+        "work_budget_ms": 11302.361445357836,
+        "queue_limit": 256,
+        "tau_ms": 250.0,
+        "aging_threshold_ms": 2000,
+        "queue_timeout_ms": 60000,
+        "backend_timeout_seconds": 120.0,
+        "max_prompt_tokens": 8192,
+        "max_output_tokens": 512,
+        "cost_intercept_ms": 0.01,
+        "prompt_ms_per_token": 0.07981239198237576,
+        "output_ms_per_token": 9.760444546014249,
+        "cancel_path_verified": false,
+        "event_log": "artifacts/gateway_events.jsonl"
+      },
+      "valid": true,
+      "invalid_reasons": [],
+      "statuses": {
+        "succeeded": 84
+      }
+    },
+    "stats": {
+      "offered": 84,
+      "completed": 84,
+      "slo_passed": 26,
+      "slo_success_fraction": 0.30952380952380953,
+      "cohort_goodput": 1.3,
+      "wall_goodput": 1.0507442773363211,
+      "failure_fraction": 0.0,
+      "successful_ttft_p50_ms": 971.0650779888965,
+      "successful_ttft_p95_ms": 3073.57780089369,
+      "successful_e2e_p95_ms": 16652.467381692244,
+      "statuses": {
+        "succeeded": 84
+      }
+    },
+    "native": {
+      "policy": "fcfs",
+      "extra_args": [
+        "--max-num-active-seqs",
+        "64",
+        "--max-num-queued-reqs",
+        "272",
+        "--max-num-queued-tokens",
+        "524288"
+      ]
+    }
+  },
+  "attempts": [
+    {
+      "name": "native-0",
+      "rate": 4.4,
+      "config": {
+        "aging_threshold_ms": 2000,
+        "backend_timeout_seconds": 120.0,
+        "backend_url": "http://127.0.0.1:8000",
+        "cancel_path_verified": false,
+        "cost_intercept_ms": 0.01,
+        "event_log": "artifacts/gateway_events.jsonl",
+        "max_inflight": 16,
+        "max_output_tokens": 512,
+        "max_prompt_tokens": 8192,
+        "model": "admission-7b",
+        "output_ms_per_token": 9.760444546014249,
+        "policy": "cost_aging",
+        "prompt_ms_per_token": 0.07981239198237576,
+        "queue_limit": 256,
+        "queue_timeout_ms": 60000,
+        "tau_ms": 250.0,
+        "work_budget_ms": 11302.361445357836
+      },
+      "manifest": {
+        "run_id": "native-0",
+        "url": "http://127.0.0.1:8000/v1/completions",
+        "model": "admission-7b",
+        "trace_sha256": "47e7ac88733c1dde0038a7638d1b0c4aa71bee9ccd0f1c786303556bfba3b874",
+        "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+        "load": "calibration",
+        "seed": 2201,
+        "offered": 84,
+        "arrival_window_seconds": 20,
+        "total_seconds_including_drain": 24.7977335419273,
+        "send_lag_p95_ms": 4.00451577621794,
+        "native_priority": false,
+        "config": {
+          "backend_url": "http://127.0.0.1:8000",
+          "model": "admission-7b",
+          "policy": "cost_aging",
+          "max_inflight": 16,
+          "work_budget_ms": 11302.361445357836,
+          "queue_limit": 256,
+          "tau_ms": 250.0,
+          "aging_threshold_ms": 2000,
+          "queue_timeout_ms": 60000,
+          "backend_timeout_seconds": 120.0,
+          "max_prompt_tokens": 8192,
+          "max_output_tokens": 512,
+          "cost_intercept_ms": 0.01,
+          "prompt_ms_per_token": 0.07981239198237576,
+          "output_ms_per_token": 9.760444546014249,
+          "cancel_path_verified": false,
+          "event_log": "artifacts/gateway_events.jsonl"
+        },
+        "valid": true,
+        "invalid_reasons": [],
+        "statuses": {
+          "succeeded": 84
+        }
+      },
+      "stats": {
+        "offered": 84,
+        "completed": 84,
+        "slo_passed": 14,
+        "slo_success_fraction": 0.16666666666666666,
+        "cohort_goodput": 0.7,
+        "wall_goodput": 0.564567724559553,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 1319.3908429821022,
+        "successful_ttft_p95_ms": 4397.9242557426915,
+        "successful_e2e_p95_ms": 16714.768007880768,
+        "statuses": {
+          "succeeded": 84
+        }
+      },
+      "native": {
+        "policy": "fcfs",
+        "extra_args": [
+          "--max-num-active-seqs",
+          "32",
+          "--max-num-queued-reqs",
+          "272",
+          "--max-num-queued-tokens",
+          "131072"
+        ]
+      }
+    },
+    {
+      "name": "native-1",
+      "rate": 4.4,
+      "config": {
+        "aging_threshold_ms": 2000,
+        "backend_timeout_seconds": 120.0,
+        "backend_url": "http://127.0.0.1:8000",
+        "cancel_path_verified": false,
+        "cost_intercept_ms": 0.01,
+        "event_log": "artifacts/gateway_events.jsonl",
+        "max_inflight": 16,
+        "max_output_tokens": 512,
+        "max_prompt_tokens": 8192,
+        "model": "admission-7b",
+        "output_ms_per_token": 9.760444546014249,
+        "policy": "cost_aging",
+        "prompt_ms_per_token": 0.07981239198237576,
+        "queue_limit": 256,
+        "queue_timeout_ms": 60000,
+        "tau_ms": 250.0,
+        "work_budget_ms": 11302.361445357836
+      },
+      "manifest": {
+        "run_id": "native-1",
+        "url": "http://127.0.0.1:8000/v1/completions",
+        "model": "admission-7b",
+        "trace_sha256": "47e7ac88733c1dde0038a7638d1b0c4aa71bee9ccd0f1c786303556bfba3b874",
+        "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+        "load": "calibration",
+        "seed": 2201,
+        "offered": 84,
+        "arrival_window_seconds": 20,
+        "total_seconds_including_drain": 24.74436507606879,
+        "send_lag_p95_ms": 6.837348153738349,
+        "native_priority": false,
+        "config": {
+          "backend_url": "http://127.0.0.1:8000",
+          "model": "admission-7b",
+          "policy": "cost_aging",
+          "max_inflight": 16,
+          "work_budget_ms": 11302.361445357836,
+          "queue_limit": 256,
+          "tau_ms": 250.0,
+          "aging_threshold_ms": 2000,
+          "queue_timeout_ms": 60000,
+          "backend_timeout_seconds": 120.0,
+          "max_prompt_tokens": 8192,
+          "max_output_tokens": 512,
+          "cost_intercept_ms": 0.01,
+          "prompt_ms_per_token": 0.07981239198237576,
+          "output_ms_per_token": 9.760444546014249,
+          "cancel_path_verified": false,
+          "event_log": "artifacts/gateway_events.jsonl"
+        },
+        "valid": true,
+        "invalid_reasons": [],
+        "statuses": {
+          "succeeded": 84
+        }
+      },
+      "stats": {
+        "offered": 84,
+        "completed": 84,
+        "slo_passed": 26,
+        "slo_success_fraction": 0.30952380952380953,
+        "cohort_goodput": 1.3,
+        "wall_goodput": 1.0507442773363211,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 971.0650779888965,
+        "successful_ttft_p95_ms": 3073.57780089369,
+        "successful_e2e_p95_ms": 16652.467381692244,
+        "statuses": {
+          "succeeded": 84
+        }
+      },
+      "native": {
+        "policy": "fcfs",
+        "extra_args": [
+          "--max-num-active-seqs",
+          "64",
+          "--max-num-queued-reqs",
+          "272",
+          "--max-num-queued-tokens",
+          "524288"
+        ]
+      }
+    },
+    {
+      "name": "native-2",
+      "rate": 4.4,
+      "config": {
+        "aging_threshold_ms": 2000,
+        "backend_timeout_seconds": 120.0,
+        "backend_url": "http://127.0.0.1:8000",
+        "cancel_path_verified": false,
+        "cost_intercept_ms": 0.01,
+        "event_log": "artifacts/gateway_events.jsonl",
+        "max_inflight": 16,
+        "max_output_tokens": 512,
+        "max_prompt_tokens": 8192,
+        "model": "admission-7b",
+        "output_ms_per_token": 9.760444546014249,
+        "policy": "cost_aging",
+        "prompt_ms_per_token": 0.07981239198237576,
+        "queue_limit": 256,
+        "queue_timeout_ms": 60000,
+        "tau_ms": 250.0,
+        "work_budget_ms": 11302.361445357836
+      },
+      "manifest": {
+        "run_id": "native-2",
+        "url": "http://127.0.0.1:8000/v1/completions",
+        "model": "admission-7b",
+        "trace_sha256": "47e7ac88733c1dde0038a7638d1b0c4aa71bee9ccd0f1c786303556bfba3b874",
+        "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+        "load": "calibration",
+        "seed": 2201,
+        "offered": 84,
+        "arrival_window_seconds": 20,
+        "total_seconds_including_drain": 28.047780652996153,
+        "send_lag_p95_ms": 2.6468965159844093,
+        "native_priority": true,
+        "config": {
+          "backend_url": "http://127.0.0.1:8000",
+          "model": "admission-7b",
+          "policy": "cost_aging",
+          "max_inflight": 16,
+          "work_budget_ms": 11302.361445357836,
+          "queue_limit": 256,
+          "tau_ms": 250.0,
+          "aging_threshold_ms": 2000,
+          "queue_timeout_ms": 60000,
+          "backend_timeout_seconds": 120.0,
+          "max_prompt_tokens": 8192,
+          "max_output_tokens": 512,
+          "cost_intercept_ms": 0.01,
+          "prompt_ms_per_token": 0.07981239198237576,
+          "output_ms_per_token": 9.760444546014249,
+          "cancel_path_verified": false,
+          "event_log": "artifacts/gateway_events.jsonl"
+        },
+        "valid": true,
+        "invalid_reasons": [],
+        "statuses": {
+          "failed": 2,
+          "succeeded": 82
+        }
+      },
+      "stats": {
+        "offered": 84,
+        "completed": 82,
+        "slo_passed": 11,
+        "slo_success_fraction": 0.13095238095238096,
+        "cohort_goodput": 0.55,
+        "wall_goodput": 0.3921878930846867,
+        "failure_fraction": 0.023809523809523808,
+        "successful_ttft_p50_ms": 1158.2714850082994,
+        "successful_ttft_p95_ms": 12797.933432593712,
+        "successful_e2e_p95_ms": 18724.20332829352,
+        "statuses": {
+          "succeeded": 82,
+          "failed": 2
+        }
+      },
+      "native": {
+        "policy": "priority",
+        "extra_args": [
+          "--max-num-active-seqs",
+          "16",
+          "--max-num-queued-reqs",
+          "272",
+          "--max-num-queued-tokens",
+          "65536"
+        ]
+      }
+    },
+    {
+      "name": "native-3",
+      "rate": 4.4,
+      "config": {
+        "aging_threshold_ms": 2000,
+        "backend_timeout_seconds": 120.0,
+        "backend_url": "http://127.0.0.1:8000",
+        "cancel_path_verified": false,
+        "cost_intercept_ms": 0.01,
+        "event_log": "artifacts/gateway_events.jsonl",
+        "max_inflight": 16,
+        "max_output_tokens": 512,
+        "max_prompt_tokens": 8192,
+        "model": "admission-7b",
+        "output_ms_per_token": 9.760444546014249,
+        "policy": "cost_aging",
+        "prompt_ms_per_token": 0.07981239198237576,
+        "queue_limit": 256,
+        "queue_timeout_ms": 60000,
+        "tau_ms": 250.0,
+        "work_budget_ms": 11302.361445357836
+      },
+      "manifest": {
+        "run_id": "native-3",
+        "url": "http://127.0.0.1:8000/v1/completions",
+        "model": "admission-7b",
+        "trace_sha256": "47e7ac88733c1dde0038a7638d1b0c4aa71bee9ccd0f1c786303556bfba3b874",
+        "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+        "load": "calibration",
+        "seed": 2201,
+        "offered": 84,
+        "arrival_window_seconds": 20,
+        "total_seconds_including_drain": 24.759784321067855,
+        "send_lag_p95_ms": 3.16040642201397,
+        "native_priority": true,
+        "config": {
+          "backend_url": "http://127.0.0.1:8000",
+          "model": "admission-7b",
+          "policy": "cost_aging",
+          "max_inflight": 16,
+          "work_budget_ms": 11302.361445357836,
+          "queue_limit": 256,
+          "tau_ms": 250.0,
+          "aging_threshold_ms": 2000,
+          "queue_timeout_ms": 60000,
+          "backend_timeout_seconds": 120.0,
+          "max_prompt_tokens": 8192,
+          "max_output_tokens": 512,
+          "cost_intercept_ms": 0.01,
+          "prompt_ms_per_token": 0.07981239198237576,
+          "output_ms_per_token": 9.760444546014249,
+          "cancel_path_verified": false,
+          "event_log": "artifacts/gateway_events.jsonl"
+        },
+        "valid": true,
+        "invalid_reasons": [],
+        "statuses": {
+          "succeeded": 84
+        }
+      },
+      "stats": {
+        "offered": 84,
+        "completed": 84,
+        "slo_passed": 26,
+        "slo_success_fraction": 0.30952380952380953,
+        "cohort_goodput": 1.3,
+        "wall_goodput": 1.050089922547381,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 982.4133545625955,
+        "successful_ttft_p95_ms": 3116.728191752918,
+        "successful_e2e_p95_ms": 16688.6878877587,
+        "statuses": {
+          "succeeded": 84
+        }
+      },
+      "native": {
+        "policy": "priority",
+        "extra_args": [
+          "--max-num-active-seqs",
+          "64",
+          "--max-num-queued-reqs",
+          "272",
+          "--max-num-queued-tokens",
+          "524288"
+        ]
+      }
+    }
+  ]
+}

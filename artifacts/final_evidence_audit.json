@@ -1,0 +1,72 @@
+{
+  "status": "passed",
+  "audited_utc": "2026-11-18T07:11:46.154630+00:00",
+  "matrices": {
+    "formal": {
+      "runs": 36,
+      "offered": 10320,
+      "gpu_uuids": [
+        "GPU-PUBLIC-DEVICE-0"
+      ],
+      "max_send_lag_p95_ms": 6.884228698214626,
+      "run_ids": [
+        "B0-burst-1101",
+        "B0-burst-1102",
+        "B0-burst-1103",
+        "B0-light-1101",
+        "B0-light-1102",
+        "B0-light-1103",
+        "B0-near_capacity-1101",
+        "B0-near_capacity-1102",
+        "B0-near_capacity-1103",
+        "B1-burst-1101",
+        "B1-burst-1102",
+        "B1-burst-1103",
+        "B1-light-1101",
+        "B1-light-1102",
+        "B1-light-1103",
+        "B1-near_capacity-1101",
+        "B1-near_capacity-1102",
+        "B1-near_capacity-1103",
+        "B2-burst-1101",
+        "B2-burst-1102",
+        "B2-burst-1103",
+        "B2-light-1101",
+        "B2-light-1102",
+        "B2-light-1103",
+        "B2-near_capacity-1101",
+        "B2-near_capacity-1102",
+        "B2-near_capacity-1103",
+        "P-burst-1101",
+        "P-burst-1102",
+        "P-burst-1103",
+        "P-light-1101",
+        "P-light-1102",
+        "P-light-1103",
+        "P-near_capacity-1101",
+        "P-near_capacity-1102",
+        "P-near_capacity-1103"
+      ]
+    },
+    "validation": {
+      "runs": 4,
+      "offered": 1240,
+      "gpu_uuids": [
+        "GPU-PUBLIC-DEVICE-0"
+      ],
+      "max_send_lag_p95_ms": 2.9669118342305016,
+      "run_ids": [
+        "B0-near_capacity-4401",
+        "B1-near_capacity-4401",
+        "B2-near_capacity-4401",
+        "P-near_capacity-4401"
+      ]
+    }
+  },
+  "tests": 23,
+  "model_files_rehashed": 14,
+  "frozen_measurement_source_unchanged": true,
+  "generated_cache_drift_paths": [],
+  "native_and_gateway_real_cancellation_verified": true,
+  "remaining_owned_processes": []
+}

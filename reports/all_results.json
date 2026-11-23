@@ -1,0 +1,3929 @@
+[
+  {
+    "manifest": {
+      "run_id": "B0-burst-1101",
+      "url": "http://127.0.0.1:8000/v1/completions",
+      "model": "admission-7b",
+      "trace_sha256": "3d8416c7a36882ca58f195bb151c173fa29eaf040070172214794e1046dbe93c",
+      "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+      "load": "burst",
+      "seed": 1101,
+      "offered": 323,
+      "arrival_window_seconds": 90.0,
+      "total_seconds_including_drain": 94.57226744899526,
+      "send_lag_p95_ms": 3.746612339098476,
+      "native_priority": false,
+      "config": {
+        "backend_url": "http://127.0.0.1:8000",
+        "model": "admission-7b",
+        "policy": "cost_aging",
+        "max_inflight": 64,
+        "work_budget_ms": 45209.44578143134,
+        "queue_limit": 256,
+        "tau_ms": 250.0,
+        "aging_threshold_ms": 2000,
+        "queue_timeout_ms": 60000,
+        "backend_timeout_seconds": 120.0,
+        "max_prompt_tokens": 8192,
+        "max_output_tokens": 512,
+        "cost_intercept_ms": 0.01,
+        "prompt_ms_per_token": 0.07981239198237576,
+        "output_ms_per_token": 9.760444546014249,
+        "cancel_path_verified": true,
+        "event_log": "artifacts/development/gateway-3/gateway_events.jsonl"
+      },
+      "valid": true,
+      "invalid_reasons": [],
+      "statuses": {
+        "succeeded": 323
+      },
+      "frozen_config_sha256": "21ef442a102201e64ac9d00d8ca890674887cbfe2936b482374b984b4100c06a",
+      "gpu_uuid": "GPU-PUBLIC-DEVICE-0",
+      "slot": null,
+      "concurrent_gpu_trials": false,
+      "source_manifest_sha256": "79ba3cd7be4f0cedfee0ad3f49f64e65cee948c057f9287a072ffb717a3104f5",
+      "model_manifest_sha256": "b9a506ac7e1c7c12806a0a2c17a054c880f251e7e85d730d2646ac6aaa0244f6",
+      "environment_sha256": "933915265e1a6fcff31ece2b117d8d097c1feec31099327481885a6c41c13bf6"
+    },
+    "stats": {
+      "offered": 323,
+      "completed": 323,
+      "slo_passed": 74,
+      "slo_success_fraction": 0.22910216718266255,
+      "cohort_goodput": 0.8222222222222222,
+      "wall_goodput": 0.7824704006373718,
+      "failure_fraction": 0.0,
+      "successful_ttft_p50_ms": 3002.89534998592,
+      "successful_ttft_p95_ms": 10968.163895851465,
+      "successful_e2e_p95_ms": 37079.5476052328,
+      "statuses": {
+        "succeeded": 323
+      }
+    },
+    "by_class": {
+      "S": {
+        "offered": 197,
+        "completed": 197,
+        "slo_passed": 37,
+        "slo_success_fraction": 0.18781725888324874,
+        "cohort_goodput": 0.4111111111111111,
+        "wall_goodput": 0.3912352003186859,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 2843.508816906251,
+        "successful_ttft_p95_ms": 10881.838941341266,
+        "successful_e2e_p95_ms": 18974.519526562653,
+        "statuses": {
+          "succeeded": 197
+        }
+      },
+      "P": {
+        "offered": 87,
+        "completed": 87,
+        "slo_passed": 34,
+        "slo_success_fraction": 0.39080459770114945,
+        "cohort_goodput": 0.37777777777777777,
+        "wall_goodput": 0.3595134273198735,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 2755.1936900708824,
+        "successful_ttft_p95_ms": 11149.532554997131,
+        "successful_e2e_p95_ms": 19227.342810842674,
+        "statuses": {
+          "succeeded": 87
+        }
+      },
+      "D": {
+        "offered": 39,
+        "completed": 39,
+        "slo_passed": 3,
+        "slo_success_fraction": 0.07692307692307693,
+        "cohort_goodput": 0.03333333333333333,
+        "wall_goodput": 0.03172177299881237,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 6398.671594914049,
+        "successful_ttft_p95_ms": 11293.021827831399,
+        "successful_e2e_p95_ms": 40627.70902747288,
+        "statuses": {
+          "succeeded": 39
+        }
+      }
+    }
+  },
+  {
+    "manifest": {
+      "run_id": "B0-burst-1102",
+      "url": "http://127.0.0.1:8000/v1/completions",
+      "model": "admission-7b",
+      "trace_sha256": "6679813b3d2a8a6f1eb5eefd1f06e0e60c2d2fbbe745b68e26f61f520a707608",
+      "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+      "load": "burst",
+      "seed": 1102,
+      "offered": 347,
+      "arrival_window_seconds": 90.0,
+      "total_seconds_including_drain": 97.69513705791906,
+      "send_lag_p95_ms": 4.137157360857379,
+      "native_priority": false,
+      "config": {
+        "backend_url": "http://127.0.0.1:8000",
+        "model": "admission-7b",
+        "policy": "cost_aging",
+        "max_inflight": 64,
+        "work_budget_ms": 45209.44578143134,
+        "queue_limit": 256,
+        "tau_ms": 250.0,
+        "aging_threshold_ms": 2000,
+        "queue_timeout_ms": 60000,
+        "backend_timeout_seconds": 120.0,
+        "max_prompt_tokens": 8192,
+        "max_output_tokens": 512,
+        "cost_intercept_ms": 0.01,
+        "prompt_ms_per_token": 0.07981239198237576,
+        "output_ms_per_token": 9.760444546014249,
+        "cancel_path_verified": true,
+        "event_log": "artifacts/development/gateway-3/gateway_events.jsonl"
+      },
+      "valid": true,
+      "invalid_reasons": [],
+      "statuses": {
+        "failed": 1,
+        "succeeded": 346
+      },
+      "frozen_config_sha256": "21ef442a102201e64ac9d00d8ca890674887cbfe2936b482374b984b4100c06a",
+      "gpu_uuid": "GPU-PUBLIC-DEVICE-0",
+      "slot": null,
+      "concurrent_gpu_trials": false,
+      "source_manifest_sha256": "79ba3cd7be4f0cedfee0ad3f49f64e65cee948c057f9287a072ffb717a3104f5",
+      "model_manifest_sha256": "b9a506ac7e1c7c12806a0a2c17a054c880f251e7e85d730d2646ac6aaa0244f6",
+      "environment_sha256": "933915265e1a6fcff31ece2b117d8d097c1feec31099327481885a6c41c13bf6"
+    },
+    "stats": {
+      "offered": 347,
+      "completed": 346,
+      "slo_passed": 50,
+      "slo_success_fraction": 0.1440922190201729,
+      "cohort_goodput": 0.5555555555555556,
+      "wall_goodput": 0.5117962009752568,
+      "failure_fraction": 0.002881844380403458,
+      "successful_ttft_p50_ms": 4744.929447944742,
+      "successful_ttft_p95_ms": 14184.023200010415,
+      "successful_e2e_p95_ms": 40418.11456749565,
+      "statuses": {
+        "succeeded": 346,
+        "failed": 1
+      }
+    },
+    "by_class": {
+      "S": {
+        "offered": 206,
+        "completed": 206,
+        "slo_passed": 23,
+        "slo_success_fraction": 0.11165048543689321,
+        "cohort_goodput": 0.25555555555555554,
+        "wall_goodput": 0.23542625244861815,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 4682.758079434279,
+        "successful_ttft_p95_ms": 14300.185033556772,
+        "successful_e2e_p95_ms": 24387.33680426958,
+        "statuses": {
+          "succeeded": 206
+        }
+      },
+      "P": {
+        "offered": 96,
+        "completed": 95,
+        "slo_passed": 24,
+        "slo_success_fraction": 0.25,
+        "cohort_goodput": 0.26666666666666666,
+        "wall_goodput": 0.24566217646812327,
+        "failure_fraction": 0.010416666666666666,
+        "successful_ttft_p50_ms": 5828.90885300003,
+        "successful_ttft_p95_ms": 14261.971481458748,
+        "successful_e2e_p95_ms": 24107.524337503128,
+        "statuses": {
+          "succeeded": 95,
+          "failed": 1
+        }
+      },
+      "D": {
+        "offered": 45,
+        "completed": 45,
+        "slo_passed": 3,
+        "slo_success_fraction": 0.06666666666666667,
+        "cohort_goodput": 0.03333333333333333,
+        "wall_goodput": 0.03070777205851541,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 4113.5281139286235,
+        "successful_ttft_p95_ms": 13449.814284639431,
+        "successful_e2e_p95_ms": 46858.54682580102,
+        "statuses": {
+          "succeeded": 45
+        }
+      }
+    }
+  },
+  {
+    "manifest": {
+      "run_id": "B0-burst-1103",
+      "url": "http://127.0.0.1:8000/v1/completions",
+      "model": "admission-7b",
+      "trace_sha256": "f990f24cddb7c1f5a5c9aee27c16391af2508e501e4f8900e0a93053523d3d71",
+      "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+      "load": "burst",
+      "seed": 1103,
+      "offered": 333,
+      "arrival_window_seconds": 90.0,
+      "total_seconds_including_drain": 93.15407208597753,
+      "send_lag_p95_ms": 5.638793687631959,
+      "native_priority": false,
+      "config": {
+        "backend_url": "http://127.0.0.1:8000",
+        "model": "admission-7b",
+        "policy": "cost_aging",
+        "max_inflight": 64,
+        "work_budget_ms": 45209.44578143134,
+        "queue_limit": 256,
+        "tau_ms": 250.0,
+        "aging_threshold_ms": 2000,
+        "queue_timeout_ms": 60000,
+        "backend_timeout_seconds": 120.0,
+        "max_prompt_tokens": 8192,
+        "max_output_tokens": 512,
+        "cost_intercept_ms": 0.01,
+        "prompt_ms_per_token": 0.07981239198237576,
+        "output_ms_per_token": 9.760444546014249,
+        "cancel_path_verified": true,
+        "event_log": "artifacts/development/gateway-3/gateway_events.jsonl"
+      },
+      "valid": true,
+      "invalid_reasons": [],
+      "statuses": {
+        "succeeded": 333
+      },
+      "frozen_config_sha256": "21ef442a102201e64ac9d00d8ca890674887cbfe2936b482374b984b4100c06a",
+      "gpu_uuid": "GPU-PUBLIC-DEVICE-0",
+      "slot": null,
+      "concurrent_gpu_trials": false,
+      "source_manifest_sha256": "79ba3cd7be4f0cedfee0ad3f49f64e65cee948c057f9287a072ffb717a3104f5",
+      "model_manifest_sha256": "b9a506ac7e1c7c12806a0a2c17a054c880f251e7e85d730d2646ac6aaa0244f6",
+      "environment_sha256": "933915265e1a6fcff31ece2b117d8d097c1feec31099327481885a6c41c13bf6"
+    },
+    "stats": {
+      "offered": 333,
+      "completed": 333,
+      "slo_passed": 74,
+      "slo_success_fraction": 0.2222222222222222,
+      "cohort_goodput": 0.8222222222222222,
+      "wall_goodput": 0.7943828792766131,
+      "failure_fraction": 0.0,
+      "successful_ttft_p50_ms": 2715.338444104418,
+      "successful_ttft_p95_ms": 11329.136168537661,
+      "successful_e2e_p95_ms": 36968.92966402228,
+      "statuses": {
+        "succeeded": 333
+      }
+    },
+    "by_class": {
+      "S": {
+        "offered": 203,
+        "completed": 203,
+        "slo_passed": 40,
+        "slo_success_fraction": 0.19704433497536947,
+        "cohort_goodput": 0.4444444444444444,
+        "wall_goodput": 0.4293961509603314,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 2318.624353967607,
+        "successful_ttft_p95_ms": 11290.937783429394,
+        "successful_e2e_p95_ms": 19355.195117334362,
+        "statuses": {
+          "succeeded": 203
+        }
+      },
+      "P": {
+        "offered": 80,
+        "completed": 80,
+        "slo_passed": 25,
+        "slo_success_fraction": 0.3125,
+        "cohort_goodput": 0.2777777777777778,
+        "wall_goodput": 0.2683725943502071,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 3718.9778669853695,
+        "successful_ttft_p95_ms": 11441.902439994738,
+        "successful_e2e_p95_ms": 19526.133604865754,
+        "statuses": {
+          "succeeded": 80
+        }
+      },
+      "D": {
+        "offered": 50,
+        "completed": 50,
+        "slo_passed": 9,
+        "slo_success_fraction": 0.18,
+        "cohort_goodput": 0.1,
+        "wall_goodput": 0.09661413396607456,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 3700.3370884922333,
+        "successful_ttft_p95_ms": 10855.28544014087,
+        "successful_e2e_p95_ms": 41839.66416534968,
+        "statuses": {
+          "succeeded": 50
+        }
+      }
+    }
+  },
+  {
+    "manifest": {
+      "run_id": "B0-light-1101",
+      "url": "http://127.0.0.1:8000/v1/completions",
+      "model": "admission-7b",
+      "trace_sha256": "5664be7b2a790abaa713aa3514d8998c1eab41dd96bf3b68ddaebf7ea784fda7",
+      "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+      "load": "light",
+      "seed": 1101,
+      "offered": 175,
+      "arrival_window_seconds": 90.0,
+      "total_seconds_including_drain": 90.80340189591516,
+      "send_lag_p95_ms": 1.8937024613016693,
+      "native_priority": false,
+      "config": {
+        "backend_url": "http://127.0.0.1:8000",
+        "model": "admission-7b",
+        "policy": "cost_aging",
+        "max_inflight": 64,
+        "work_budget_ms": 45209.44578143134,
+        "queue_limit": 256,
+        "tau_ms": 250.0,
+        "aging_threshold_ms": 2000,
+        "queue_timeout_ms": 60000,
+        "backend_timeout_seconds": 120.0,
+        "max_prompt_tokens": 8192,
+        "max_output_tokens": 512,
+        "cost_intercept_ms": 0.01,
+        "prompt_ms_per_token": 0.07981239198237576,
+        "output_ms_per_token": 9.760444546014249,
+        "cancel_path_verified": true,
+        "event_log": "artifacts/development/gateway-3/gateway_events.jsonl"
+      },
+      "valid": true,
+      "invalid_reasons": [],
+      "statuses": {
+        "succeeded": 175
+      },
+      "frozen_config_sha256": "21ef442a102201e64ac9d00d8ca890674887cbfe2936b482374b984b4100c06a",
+      "gpu_uuid": "GPU-PUBLIC-DEVICE-0",
+      "slot": null,
+      "concurrent_gpu_trials": false,
+      "source_manifest_sha256": "79ba3cd7be4f0cedfee0ad3f49f64e65cee948c057f9287a072ffb717a3104f5",
+      "model_manifest_sha256": "b9a506ac7e1c7c12806a0a2c17a054c880f251e7e85d730d2646ac6aaa0244f6",
+      "environment_sha256": "933915265e1a6fcff31ece2b117d8d097c1feec31099327481885a6c41c13bf6"
+    },
+    "stats": {
+      "offered": 175,
+      "completed": 175,
+      "slo_passed": 153,
+      "slo_success_fraction": 0.8742857142857143,
+      "cohort_goodput": 1.7,
+      "wall_goodput": 1.6849588980749717,
+      "failure_fraction": 0.0,
+      "successful_ttft_p50_ms": 82.86587405018508,
+      "successful_ttft_p95_ms": 952.183804311789,
+      "successful_e2e_p95_ms": 8397.749924578238,
+      "statuses": {
+        "succeeded": 175
+      }
+    },
+    "by_class": {
+      "S": {
+        "offered": 111,
+        "completed": 111,
+        "slo_passed": 91,
+        "slo_success_fraction": 0.8198198198198198,
+        "cohort_goodput": 1.011111111111111,
+        "wall_goodput": 1.0021650962406694,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 79.0605490328744,
+        "successful_ttft_p95_ms": 957.4905940680765,
+        "successful_e2e_p95_ms": 3669.0004609990865,
+        "statuses": {
+          "succeeded": 111
+        }
+      },
+      "P": {
+        "offered": 37,
+        "completed": 37,
+        "slo_passed": 37,
+        "slo_success_fraction": 1.0,
+        "cohort_goodput": 0.4111111111111111,
+        "wall_goodput": 0.407473720449503,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 649.3860490154475,
+        "successful_ttft_p95_ms": 1064.0352369751781,
+        "successful_e2e_p95_ms": 4433.308492368085,
+        "statuses": {
+          "succeeded": 37
+        }
+      },
+      "D": {
+        "offered": 27,
+        "completed": 27,
+        "slo_passed": 25,
+        "slo_success_fraction": 0.9259259259259259,
+        "cohort_goodput": 0.2777777777777778,
+        "wall_goodput": 0.2753200813847993,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 74.87066404428333,
+        "successful_ttft_p95_ms": 596.9304417143575,
+        "successful_e2e_p95_ms": 9915.647857799195,
+        "statuses": {
+          "succeeded": 27
+        }
+      }
+    }
+  },
+  {
+    "manifest": {
+      "run_id": "B0-light-1102",
+      "url": "http://127.0.0.1:8000/v1/completions",
+      "model": "admission-7b",
+      "trace_sha256": "a93bfdadb94a9179763b291b79f4b16861218eff9c0d4bac3531ce21873b5684",
+      "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+      "load": "light",
+      "seed": 1102,
+      "offered": 184,
+      "arrival_window_seconds": 90.0,
+      "total_seconds_including_drain": 93.36083281110041,
+      "send_lag_p95_ms": 1.9989594064256808,
+      "native_priority": false,
+      "config": {
+        "backend_url": "http://127.0.0.1:8000",
+        "model": "admission-7b",
+        "policy": "cost_aging",
+        "max_inflight": 64,
+        "work_budget_ms": 45209.44578143134,
+        "queue_limit": 256,
+        "tau_ms": 250.0,
+        "aging_threshold_ms": 2000,
+        "queue_timeout_ms": 60000,
+        "backend_timeout_seconds": 120.0,
+        "max_prompt_tokens": 8192,
+        "max_output_tokens": 512,
+        "cost_intercept_ms": 0.01,
+        "prompt_ms_per_token": 0.07981239198237576,
+        "output_ms_per_token": 9.760444546014249,
+        "cancel_path_verified": true,
+        "event_log": "artifacts/development/gateway-3/gateway_events.jsonl"
+      },
+      "valid": true,
+      "invalid_reasons": [],
+      "statuses": {
+        "succeeded": 184
+      },
+      "frozen_config_sha256": "21ef442a102201e64ac9d00d8ca890674887cbfe2936b482374b984b4100c06a",
+      "gpu_uuid": "GPU-PUBLIC-DEVICE-0",
+      "slot": null,
+      "concurrent_gpu_trials": false,
+      "source_manifest_sha256": "79ba3cd7be4f0cedfee0ad3f49f64e65cee948c057f9287a072ffb717a3104f5",
+      "model_manifest_sha256": "b9a506ac7e1c7c12806a0a2c17a054c880f251e7e85d730d2646ac6aaa0244f6",
+      "environment_sha256": "933915265e1a6fcff31ece2b117d8d097c1feec31099327481885a6c41c13bf6"
+    },
+    "stats": {
+      "offered": 184,
+      "completed": 184,
+      "slo_passed": 163,
+      "slo_success_fraction": 0.8858695652173914,
+      "cohort_goodput": 1.8111111111111111,
+      "wall_goodput": 1.7459141600611305,
+      "failure_fraction": 0.0,
+      "successful_ttft_p50_ms": 85.88138804771006,
+      "successful_ttft_p95_ms": 823.9963466126936,
+      "successful_e2e_p95_ms": 7319.610091473441,
+      "statuses": {
+        "succeeded": 184
+      }
+    },
+    "by_class": {
+      "S": {
+        "offered": 116,
+        "completed": 116,
+        "slo_passed": 98,
+        "slo_success_fraction": 0.8448275862068966,
+        "cohort_goodput": 1.0888888888888888,
+        "wall_goodput": 1.0496907219999434,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 77.21779547864571,
+        "successful_ttft_p95_ms": 718.4872395009734,
+        "successful_e2e_p95_ms": 3934.1845109302085,
+        "statuses": {
+          "succeeded": 116
+        }
+      },
+      "P": {
+        "offered": 44,
+        "completed": 44,
+        "slo_passed": 44,
+        "slo_success_fraction": 1.0,
+        "cohort_goodput": 0.4888888888888889,
+        "wall_goodput": 0.47128971191834196,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 653.9538270444609,
+        "successful_ttft_p95_ms": 1006.5058615407906,
+        "successful_e2e_p95_ms": 4460.14705915004,
+        "statuses": {
+          "succeeded": 44
+        }
+      },
+      "D": {
+        "offered": 24,
+        "completed": 24,
+        "slo_passed": 21,
+        "slo_success_fraction": 0.875,
+        "cohort_goodput": 0.23333333333333334,
+        "wall_goodput": 0.22493372614284504,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 83.8138964609243,
+        "successful_ttft_p95_ms": 896.0955112648656,
+        "successful_e2e_p95_ms": 11190.846850594971,
+        "statuses": {
+          "succeeded": 24
+        }
+      }
+    }
+  },
+  {
+    "manifest": {
+      "run_id": "B0-light-1103",
+      "url": "http://127.0.0.1:8000/v1/completions",
+      "model": "admission-7b",
+      "trace_sha256": "834a138a13406ed35d8110a5a1352262e3b15932a983085d68a5f129e1b6f8e4",
+      "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+      "load": "light",
+      "seed": 1103,
+      "offered": 171,
+      "arrival_window_seconds": 90.0,
+      "total_seconds_including_drain": 90.8784520769259,
+      "send_lag_p95_ms": 2.047835561276301,
+      "native_priority": false,
+      "config": {
+        "backend_url": "http://127.0.0.1:8000",
+        "model": "admission-7b",
+        "policy": "cost_aging",
+        "max_inflight": 64,
+        "work_budget_ms": 45209.44578143134,
+        "queue_limit": 256,
+        "tau_ms": 250.0,
+        "aging_threshold_ms": 2000,
+        "queue_timeout_ms": 60000,
+        "backend_timeout_seconds": 120.0,
+        "max_prompt_tokens": 8192,
+        "max_output_tokens": 512,
+        "cost_intercept_ms": 0.01,
+        "prompt_ms_per_token": 0.07981239198237576,
+        "output_ms_per_token": 9.760444546014249,
+        "cancel_path_verified": true,
+        "event_log": "artifacts/development/gateway-3/gateway_events.jsonl"
+      },
+      "valid": true,
+      "invalid_reasons": [],
+      "statuses": {
+        "succeeded": 171
+      },
+      "frozen_config_sha256": "21ef442a102201e64ac9d00d8ca890674887cbfe2936b482374b984b4100c06a",
+      "gpu_uuid": "GPU-PUBLIC-DEVICE-0",
+      "slot": null,
+      "concurrent_gpu_trials": false,
+      "source_manifest_sha256": "79ba3cd7be4f0cedfee0ad3f49f64e65cee948c057f9287a072ffb717a3104f5",
+      "model_manifest_sha256": "b9a506ac7e1c7c12806a0a2c17a054c880f251e7e85d730d2646ac6aaa0244f6",
+      "environment_sha256": "933915265e1a6fcff31ece2b117d8d097c1feec31099327481885a6c41c13bf6"
+    },
+    "stats": {
+      "offered": 171,
+      "completed": 171,
+      "slo_passed": 128,
+      "slo_success_fraction": 0.7485380116959064,
+      "cohort_goodput": 1.4222222222222223,
+      "wall_goodput": 1.4084746942174127,
+      "failure_fraction": 0.0,
+      "successful_ttft_p50_ms": 266.04190305806696,
+      "successful_ttft_p95_ms": 2021.9366534729488,
+      "successful_e2e_p95_ms": 12359.907431993634,
+      "statuses": {
+        "succeeded": 171
+      }
+    },
+    "by_class": {
+      "S": {
+        "offered": 95,
+        "completed": 95,
+        "slo_passed": 69,
+        "slo_success_fraction": 0.7263157894736842,
+        "cohort_goodput": 0.7666666666666667,
+        "wall_goodput": 0.7592558898515741,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 79.0097329299897,
+        "successful_ttft_p95_ms": 1710.0559562211854,
+        "successful_e2e_p95_ms": 9649.632761522655,
+        "statuses": {
+          "succeeded": 95
+        }
+      },
+      "P": {
+        "offered": 54,
+        "completed": 54,
+        "slo_passed": 41,
+        "slo_success_fraction": 0.7592592592592593,
+        "cohort_goodput": 0.45555555555555555,
+        "wall_goodput": 0.451152050491515,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 695.1844264985994,
+        "successful_ttft_p95_ms": 2219.253038452007,
+        "successful_e2e_p95_ms": 11743.993658234825,
+        "statuses": {
+          "succeeded": 54
+        }
+      },
+      "D": {
+        "offered": 22,
+        "completed": 22,
+        "slo_passed": 18,
+        "slo_success_fraction": 0.8181818181818182,
+        "cohort_goodput": 0.2,
+        "wall_goodput": 0.19806675387432368,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 77.00415252475068,
+        "successful_ttft_p95_ms": 959.4830790301784,
+        "successful_e2e_p95_ms": 18290.179148991592,
+        "statuses": {
+          "succeeded": 22
+        }
+      }
+    }
+  },
+  {
+    "manifest": {
+      "run_id": "B0-near_capacity-1101",
+      "url": "http://127.0.0.1:8000/v1/completions",
+      "model": "admission-7b",
+      "trace_sha256": "56aedb0da572c75bd4aee21e3bec0241454cc87238a622382a0154efe900c85a",
+      "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+      "load": "near_capacity",
+      "seed": 1101,
+      "offered": 338,
+      "arrival_window_seconds": 90.0,
+      "total_seconds_including_drain": 99.9778220190201,
+      "send_lag_p95_ms": 4.293589369588875,
+      "native_priority": false,
+      "config": {
+        "backend_url": "http://127.0.0.1:8000",
+        "model": "admission-7b",
+        "policy": "cost_aging",
+        "max_inflight": 64,
+        "work_budget_ms": 45209.44578143134,
+        "queue_limit": 256,
+        "tau_ms": 250.0,
+        "aging_threshold_ms": 2000,
+        "queue_timeout_ms": 60000,
+        "backend_timeout_seconds": 120.0,
+        "max_prompt_tokens": 8192,
+        "max_output_tokens": 512,
+        "cost_intercept_ms": 0.01,
+        "prompt_ms_per_token": 0.07981239198237576,
+        "output_ms_per_token": 9.760444546014249,
+        "cancel_path_verified": true,
+        "event_log": "artifacts/development/gateway-3/gateway_events.jsonl"
+      },
+      "valid": true,
+      "invalid_reasons": [],
+      "statuses": {
+        "succeeded": 338
+      },
+      "frozen_config_sha256": "21ef442a102201e64ac9d00d8ca890674887cbfe2936b482374b984b4100c06a",
+      "gpu_uuid": "GPU-PUBLIC-DEVICE-0",
+      "slot": null,
+      "concurrent_gpu_trials": false,
+      "source_manifest_sha256": "79ba3cd7be4f0cedfee0ad3f49f64e65cee948c057f9287a072ffb717a3104f5",
+      "model_manifest_sha256": "b9a506ac7e1c7c12806a0a2c17a054c880f251e7e85d730d2646ac6aaa0244f6",
+      "environment_sha256": "933915265e1a6fcff31ece2b117d8d097c1feec31099327481885a6c41c13bf6"
+    },
+    "stats": {
+      "offered": 338,
+      "completed": 338,
+      "slo_passed": 135,
+      "slo_success_fraction": 0.3994082840236686,
+      "cohort_goodput": 1.5,
+      "wall_goodput": 1.3502994691594419,
+      "failure_fraction": 0.0,
+      "successful_ttft_p50_ms": 666.6005335282534,
+      "successful_ttft_p95_ms": 3647.4367197486545,
+      "successful_e2e_p95_ms": 18172.629688517183,
+      "statuses": {
+        "succeeded": 338
+      }
+    },
+    "by_class": {
+      "S": {
+        "offered": 206,
+        "completed": 206,
+        "slo_passed": 76,
+        "slo_success_fraction": 0.36893203883495146,
+        "cohort_goodput": 0.8444444444444444,
+        "wall_goodput": 0.7601685900453155,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 487.6122209825553,
+        "successful_ttft_p95_ms": 2590.7281777472235,
+        "successful_e2e_p95_ms": 16245.570241764653,
+        "statuses": {
+          "succeeded": 206
+        }
+      },
+      "P": {
+        "offered": 87,
+        "completed": 87,
+        "slo_passed": 49,
+        "slo_success_fraction": 0.5632183908045977,
+        "cohort_goodput": 0.5444444444444444,
+        "wall_goodput": 0.49010869621342706,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 1289.5230069989339,
+        "successful_ttft_p95_ms": 4510.846763104201,
+        "successful_e2e_p95_ms": 17203.930621861946,
+        "statuses": {
+          "succeeded": 87
+        }
+      },
+      "D": {
+        "offered": 45,
+        "completed": 45,
+        "slo_passed": 10,
+        "slo_success_fraction": 0.2222222222222222,
+        "cohort_goodput": 0.1111111111111111,
+        "wall_goodput": 0.1000221829006994,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 337.4404750065878,
+        "successful_ttft_p95_ms": 3362.7272952347957,
+        "successful_e2e_p95_ms": 27136.37294098735,
+        "statuses": {
+          "succeeded": 45
+        }
+      }
+    }
+  },
+  {
+    "manifest": {
+      "run_id": "B0-near_capacity-1102",
+      "url": "http://127.0.0.1:8000/v1/completions",
+      "model": "admission-7b",
+      "trace_sha256": "c56ceb8d5b5480f0a225955046eff60a3a2fa0d861ba2d79c112e776fe3ac317",
+      "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+      "load": "near_capacity",
+      "seed": 1102,
+      "offered": 366,
+      "arrival_window_seconds": 90.0,
+      "total_seconds_including_drain": 97.19787821697537,
+      "send_lag_p95_ms": 4.171523586023795,
+      "native_priority": false,
+      "config": {
+        "backend_url": "http://127.0.0.1:8000",
+        "model": "admission-7b",
+        "policy": "cost_aging",
+        "max_inflight": 64,
+        "work_budget_ms": 45209.44578143134,
+        "queue_limit": 256,
+        "tau_ms": 250.0,
+        "aging_threshold_ms": 2000,
+        "queue_timeout_ms": 60000,
+        "backend_timeout_seconds": 120.0,
+        "max_prompt_tokens": 8192,
+        "max_output_tokens": 512,
+        "cost_intercept_ms": 0.01,
+        "prompt_ms_per_token": 0.07981239198237576,
+        "output_ms_per_token": 9.760444546014249,
+        "cancel_path_verified": true,
+        "event_log": "artifacts/development/gateway-3/gateway_events.jsonl"
+      },
+      "valid": true,
+      "invalid_reasons": [],
+      "statuses": {
+        "succeeded": 366
+      },
+      "frozen_config_sha256": "21ef442a102201e64ac9d00d8ca890674887cbfe2936b482374b984b4100c06a",
+      "gpu_uuid": "GPU-PUBLIC-DEVICE-0",
+      "slot": null,
+      "concurrent_gpu_trials": false,
+      "source_manifest_sha256": "79ba3cd7be4f0cedfee0ad3f49f64e65cee948c057f9287a072ffb717a3104f5",
+      "model_manifest_sha256": "b9a506ac7e1c7c12806a0a2c17a054c880f251e7e85d730d2646ac6aaa0244f6",
+      "environment_sha256": "933915265e1a6fcff31ece2b117d8d097c1feec31099327481885a6c41c13bf6"
+    },
+    "stats": {
+      "offered": 366,
+      "completed": 366,
+      "slo_passed": 110,
+      "slo_success_fraction": 0.3005464480874317,
+      "cohort_goodput": 1.2222222222222223,
+      "wall_goodput": 1.1317119469876327,
+      "failure_fraction": 0.0,
+      "successful_ttft_p50_ms": 835.8599389903247,
+      "successful_ttft_p95_ms": 2303.19744523149,
+      "successful_e2e_p95_ms": 20587.116113485536,
+      "statuses": {
+        "succeeded": 366
+      }
+    },
+    "by_class": {
+      "S": {
+        "offered": 223,
+        "completed": 223,
+        "slo_passed": 60,
+        "slo_success_fraction": 0.26905829596412556,
+        "cohort_goodput": 0.6666666666666666,
+        "wall_goodput": 0.6172974256296178,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 748.9524530246854,
+        "successful_ttft_p95_ms": 2170.626214612274,
+        "successful_e2e_p95_ms": 13713.072185683992,
+        "statuses": {
+          "succeeded": 223
+        }
+      },
+      "P": {
+        "offered": 92,
+        "completed": 92,
+        "slo_passed": 43,
+        "slo_success_fraction": 0.4673913043478261,
+        "cohort_goodput": 0.4777777777777778,
+        "wall_goodput": 0.44239648836789275,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 1127.3825584794395,
+        "successful_ttft_p95_ms": 2558.838119218126,
+        "successful_e2e_p95_ms": 13962.760211026762,
+        "statuses": {
+          "succeeded": 92
+        }
+      },
+      "D": {
+        "offered": 51,
+        "completed": 51,
+        "slo_passed": 7,
+        "slo_success_fraction": 0.13725490196078433,
+        "cohort_goodput": 0.07777777777777778,
+        "wall_goodput": 0.07201803299012208,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 840.047056088224,
+        "successful_ttft_p95_ms": 1976.0144060128368,
+        "successful_e2e_p95_ms": 27020.711327553727,
+        "statuses": {
+          "succeeded": 51
+        }
+      }
+    }
+  },
+  {
+    "manifest": {
+      "run_id": "B0-near_capacity-1103",
+      "url": "http://127.0.0.1:8000/v1/completions",
+      "model": "admission-7b",
+      "trace_sha256": "edd6a19917ba633d2a4c9c43b21d057e71d6d0866ab8874e33b971202105e7c0",
+      "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+      "load": "near_capacity",
+      "seed": 1103,
+      "offered": 343,
+      "arrival_window_seconds": 90.0,
+      "total_seconds_including_drain": 99.46070649998728,
+      "send_lag_p95_ms": 5.776730064505375,
+      "native_priority": false,
+      "config": {
+        "backend_url": "http://127.0.0.1:8000",
+        "model": "admission-7b",
+        "policy": "cost_aging",
+        "max_inflight": 64,
+        "work_budget_ms": 45209.44578143134,
+        "queue_limit": 256,
+        "tau_ms": 250.0,
+        "aging_threshold_ms": 2000,
+        "queue_timeout_ms": 60000,
+        "backend_timeout_seconds": 120.0,
+        "max_prompt_tokens": 8192,
+        "max_output_tokens": 512,
+        "cost_intercept_ms": 0.01,
+        "prompt_ms_per_token": 0.07981239198237576,
+        "output_ms_per_token": 9.760444546014249,
+        "cancel_path_verified": true,
+        "event_log": "artifacts/development/gateway-3/gateway_events.jsonl"
+      },
+      "valid": true,
+      "invalid_reasons": [],
+      "statuses": {
+        "succeeded": 343
+      },
+      "frozen_config_sha256": "21ef442a102201e64ac9d00d8ca890674887cbfe2936b482374b984b4100c06a",
+      "gpu_uuid": "GPU-PUBLIC-DEVICE-0",
+      "slot": null,
+      "concurrent_gpu_trials": false,
+      "source_manifest_sha256": "79ba3cd7be4f0cedfee0ad3f49f64e65cee948c057f9287a072ffb717a3104f5",
+      "model_manifest_sha256": "b9a506ac7e1c7c12806a0a2c17a054c880f251e7e85d730d2646ac6aaa0244f6",
+      "environment_sha256": "933915265e1a6fcff31ece2b117d8d097c1feec31099327481885a6c41c13bf6"
+    },
+    "stats": {
+      "offered": 343,
+      "completed": 343,
+      "slo_passed": 69,
+      "slo_success_fraction": 0.20116618075801748,
+      "cohort_goodput": 0.7666666666666667,
+      "wall_goodput": 0.6937413017472264,
+      "failure_fraction": 0.0,
+      "successful_ttft_p50_ms": 1093.5417240252718,
+      "successful_ttft_p95_ms": 4174.950829939915,
+      "successful_e2e_p95_ms": 24545.262273866607,
+      "statuses": {
+        "succeeded": 343
+      }
+    },
+    "by_class": {
+      "S": {
+        "offered": 188,
+        "completed": 188,
+        "slo_passed": 28,
+        "slo_success_fraction": 0.14893617021276595,
+        "cohort_goodput": 0.3111111111111111,
+        "wall_goodput": 0.2815182094046716,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 921.9373490195721,
+        "successful_ttft_p95_ms": 3975.3023230179683,
+        "successful_e2e_p95_ms": 15718.415994680254,
+        "statuses": {
+          "succeeded": 188
+        }
+      },
+      "P": {
+        "offered": 100,
+        "completed": 100,
+        "slo_passed": 37,
+        "slo_success_fraction": 0.37,
+        "cohort_goodput": 0.4111111111111111,
+        "wall_goodput": 0.3720062052847446,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 1628.9085919270292,
+        "successful_ttft_p95_ms": 4956.407632381888,
+        "successful_e2e_p95_ms": 16183.298047451535,
+        "statuses": {
+          "succeeded": 100
+        }
+      },
+      "D": {
+        "offered": 55,
+        "completed": 55,
+        "slo_passed": 4,
+        "slo_success_fraction": 0.07272727272727272,
+        "cohort_goodput": 0.044444444444444446,
+        "wall_goodput": 0.04021688705781023,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 981.4031339483336,
+        "successful_ttft_p95_ms": 3984.712336282245,
+        "successful_e2e_p95_ms": 42436.763830296695,
+        "statuses": {
+          "succeeded": 55
+        }
+      }
+    }
+  },
+  {
+    "manifest": {
+      "run_id": "B1-burst-1101",
+      "url": "http://127.0.0.1:8000/v1/completions",
+      "model": "admission-7b",
+      "trace_sha256": "3d8416c7a36882ca58f195bb151c173fa29eaf040070172214794e1046dbe93c",
+      "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+      "load": "burst",
+      "seed": 1101,
+      "offered": 323,
+      "arrival_window_seconds": 90.0,
+      "total_seconds_including_drain": 94.57012510695495,
+      "send_lag_p95_ms": 5.9495740003576545,
+      "native_priority": false,
+      "config": {
+        "backend_url": "http://127.0.0.1:8000",
+        "model": "admission-7b",
+        "policy": "cost_aging",
+        "max_inflight": 64,
+        "work_budget_ms": 45209.44578143134,
+        "queue_limit": 256,
+        "tau_ms": 250.0,
+        "aging_threshold_ms": 2000,
+        "queue_timeout_ms": 60000,
+        "backend_timeout_seconds": 120.0,
+        "max_prompt_tokens": 8192,
+        "max_output_tokens": 512,
+        "cost_intercept_ms": 0.01,
+        "prompt_ms_per_token": 0.07981239198237576,
+        "output_ms_per_token": 9.760444546014249,
+        "cancel_path_verified": true,
+        "event_log": "artifacts/development/gateway-3/gateway_events.jsonl"
+      },
+      "valid": true,
+      "invalid_reasons": [],
+      "statuses": {
+        "succeeded": 323
+      },
+      "frozen_config_sha256": "21ef442a102201e64ac9d00d8ca890674887cbfe2936b482374b984b4100c06a",
+      "gpu_uuid": "GPU-PUBLIC-DEVICE-0",
+      "slot": null,
+      "concurrent_gpu_trials": false,
+      "source_manifest_sha256": "79ba3cd7be4f0cedfee0ad3f49f64e65cee948c057f9287a072ffb717a3104f5",
+      "model_manifest_sha256": "b9a506ac7e1c7c12806a0a2c17a054c880f251e7e85d730d2646ac6aaa0244f6",
+      "environment_sha256": "933915265e1a6fcff31ece2b117d8d097c1feec31099327481885a6c41c13bf6"
+    },
+    "stats": {
+      "offered": 323,
+      "completed": 323,
+      "slo_passed": 73,
+      "slo_success_fraction": 0.2260061919504644,
+      "cohort_goodput": 0.8111111111111111,
+      "wall_goodput": 0.7719139624425788,
+      "failure_fraction": 0.0,
+      "successful_ttft_p50_ms": 2999.7997819446027,
+      "successful_ttft_p95_ms": 10960.288910171947,
+      "successful_e2e_p95_ms": 37069.15017174324,
+      "statuses": {
+        "succeeded": 323
+      }
+    },
+    "by_class": {
+      "S": {
+        "offered": 197,
+        "completed": 197,
+        "slo_passed": 36,
+        "slo_success_fraction": 0.18274111675126903,
+        "cohort_goodput": 0.4,
+        "wall_goodput": 0.3806698992867512,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 2840.0660599581897,
+        "successful_ttft_p95_ms": 10875.828597391956,
+        "successful_e2e_p95_ms": 18965.113389212638,
+        "statuses": {
+          "succeeded": 197
+        }
+      },
+      "P": {
+        "offered": 87,
+        "completed": 87,
+        "slo_passed": 34,
+        "slo_success_fraction": 0.39080459770114945,
+        "cohort_goodput": 0.37777777777777777,
+        "wall_goodput": 0.3595215715485984,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 2749.911035061814,
+        "successful_ttft_p95_ms": 11143.929456698243,
+        "successful_e2e_p95_ms": 19217.772517283447,
+        "statuses": {
+          "succeeded": 87
+        }
+      },
+      "D": {
+        "offered": 39,
+        "completed": 39,
+        "slo_passed": 3,
+        "slo_success_fraction": 0.07692307692307693,
+        "cohort_goodput": 0.03333333333333333,
+        "wall_goodput": 0.031722491607229265,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 6387.255525914952,
+        "successful_ttft_p95_ms": 11286.451692739502,
+        "successful_e2e_p95_ms": 40612.122086738236,
+        "statuses": {
+          "succeeded": 39
+        }
+      }
+    }
+  },
+  {
+    "manifest": {
+      "run_id": "B1-burst-1102",
+      "url": "http://127.0.0.1:8000/v1/completions",
+      "model": "admission-7b",
+      "trace_sha256": "6679813b3d2a8a6f1eb5eefd1f06e0e60c2d2fbbe745b68e26f61f520a707608",
+      "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+      "load": "burst",
+      "seed": 1102,
+      "offered": 347,
+      "arrival_window_seconds": 90.0,
+      "total_seconds_including_drain": 97.65790466603357,
+      "send_lag_p95_ms": 6.847991794572291,
+      "native_priority": false,
+      "config": {
+        "backend_url": "http://127.0.0.1:8000",
+        "model": "admission-7b",
+        "policy": "cost_aging",
+        "max_inflight": 64,
+        "work_budget_ms": 45209.44578143134,
+        "queue_limit": 256,
+        "tau_ms": 250.0,
+        "aging_threshold_ms": 2000,
+        "queue_timeout_ms": 60000,
+        "backend_timeout_seconds": 120.0,
+        "max_prompt_tokens": 8192,
+        "max_output_tokens": 512,
+        "cost_intercept_ms": 0.01,
+        "prompt_ms_per_token": 0.07981239198237576,
+        "output_ms_per_token": 9.760444546014249,
+        "cancel_path_verified": true,
+        "event_log": "artifacts/development/gateway-3/gateway_events.jsonl"
+      },
+      "valid": true,
+      "invalid_reasons": [],
+      "statuses": {
+        "succeeded": 347
+      },
+      "frozen_config_sha256": "21ef442a102201e64ac9d00d8ca890674887cbfe2936b482374b984b4100c06a",
+      "gpu_uuid": "GPU-PUBLIC-DEVICE-0",
+      "slot": null,
+      "concurrent_gpu_trials": false,
+      "source_manifest_sha256": "79ba3cd7be4f0cedfee0ad3f49f64e65cee948c057f9287a072ffb717a3104f5",
+      "model_manifest_sha256": "b9a506ac7e1c7c12806a0a2c17a054c880f251e7e85d730d2646ac6aaa0244f6",
+      "environment_sha256": "933915265e1a6fcff31ece2b117d8d097c1feec31099327481885a6c41c13bf6"
+    },
+    "stats": {
+      "offered": 347,
+      "completed": 347,
+      "slo_passed": 51,
+      "slo_success_fraction": 0.14697406340057637,
+      "cohort_goodput": 0.5666666666666667,
+      "wall_goodput": 0.5222311514301651,
+      "failure_fraction": 0.0,
+      "successful_ttft_p50_ms": 4704.884934006259,
+      "successful_ttft_p95_ms": 14104.592394200154,
+      "successful_e2e_p95_ms": 40184.345913620156,
+      "statuses": {
+        "succeeded": 347
+      }
+    },
+    "by_class": {
+      "S": {
+        "offered": 206,
+        "completed": 206,
+        "slo_passed": 22,
+        "slo_success_fraction": 0.10679611650485436,
+        "cohort_goodput": 0.24444444444444444,
+        "wall_goodput": 0.22527618296987512,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 4646.460657531861,
+        "successful_ttft_p95_ms": 14204.636735492386,
+        "successful_e2e_p95_ms": 24350.17091751797,
+        "statuses": {
+          "succeeded": 206
+        }
+      },
+      "P": {
+        "offered": 96,
+        "completed": 96,
+        "slo_passed": 26,
+        "slo_success_fraction": 0.2708333333333333,
+        "cohort_goodput": 0.28888888888888886,
+        "wall_goodput": 0.26623548896439786,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 5441.875582037028,
+        "successful_ttft_p95_ms": 14102.277391823009,
+        "successful_e2e_p95_ms": 24070.516033825697,
+        "statuses": {
+          "succeeded": 96
+        }
+      },
+      "D": {
+        "offered": 45,
+        "completed": 45,
+        "slo_passed": 3,
+        "slo_success_fraction": 0.06666666666666667,
+        "cohort_goodput": 0.03333333333333333,
+        "wall_goodput": 0.03071947949589206,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 4076.357441022992,
+        "successful_ttft_p95_ms": 13398.014571215024,
+        "successful_e2e_p95_ms": 46823.20816258434,
+        "statuses": {
+          "succeeded": 45
+        }
+      }
+    }
+  },
+  {
+    "manifest": {
+      "run_id": "B1-burst-1103",
+      "url": "http://127.0.0.1:8000/v1/completions",
+      "model": "admission-7b",
+      "trace_sha256": "f990f24cddb7c1f5a5c9aee27c16391af2508e501e4f8900e0a93053523d3d71",
+      "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+      "load": "burst",
+      "seed": 1103,
+      "offered": 333,
+      "arrival_window_seconds": 90.0,
+      "total_seconds_including_drain": 93.15083952702116,
+      "send_lag_p95_ms": 6.884228698214626,
+      "native_priority": false,
+      "config": {
+        "backend_url": "http://127.0.0.1:8000",
+        "model": "admission-7b",
+        "policy": "cost_aging",
+        "max_inflight": 64,
+        "work_budget_ms": 45209.44578143134,
+        "queue_limit": 256,
+        "tau_ms": 250.0,
+        "aging_threshold_ms": 2000,
+        "queue_timeout_ms": 60000,
+        "backend_timeout_seconds": 120.0,
+        "max_prompt_tokens": 8192,
+        "max_output_tokens": 512,
+        "cost_intercept_ms": 0.01,
+        "prompt_ms_per_token": 0.07981239198237576,
+        "output_ms_per_token": 9.760444546014249,
+        "cancel_path_verified": true,
+        "event_log": "artifacts/development/gateway-3/gateway_events.jsonl"
+      },
+      "valid": true,
+      "invalid_reasons": [],
+      "statuses": {
+        "succeeded": 333
+      },
+      "frozen_config_sha256": "21ef442a102201e64ac9d00d8ca890674887cbfe2936b482374b984b4100c06a",
+      "gpu_uuid": "GPU-PUBLIC-DEVICE-0",
+      "slot": null,
+      "concurrent_gpu_trials": false,
+      "source_manifest_sha256": "79ba3cd7be4f0cedfee0ad3f49f64e65cee948c057f9287a072ffb717a3104f5",
+      "model_manifest_sha256": "b9a506ac7e1c7c12806a0a2c17a054c880f251e7e85d730d2646ac6aaa0244f6",
+      "environment_sha256": "933915265e1a6fcff31ece2b117d8d097c1feec31099327481885a6c41c13bf6"
+    },
+    "stats": {
+      "offered": 333,
+      "completed": 333,
+      "slo_passed": 74,
+      "slo_success_fraction": 0.2222222222222222,
+      "cohort_goodput": 0.8222222222222222,
+      "wall_goodput": 0.7944104462798116,
+      "failure_fraction": 0.0,
+      "successful_ttft_p50_ms": 2730.6319839553908,
+      "successful_ttft_p95_ms": 11359.273984236643,
+      "successful_e2e_p95_ms": 36987.061846838325,
+      "statuses": {
+        "succeeded": 333
+      }
+    },
+    "by_class": {
+      "S": {
+        "offered": 203,
+        "completed": 203,
+        "slo_passed": 40,
+        "slo_success_fraction": 0.19704433497536947,
+        "cohort_goodput": 0.4444444444444444,
+        "wall_goodput": 0.42941105204314145,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 2314.793467056006,
+        "successful_ttft_p95_ms": 11320.961458317464,
+        "successful_e2e_p95_ms": 19373.926971643225,
+        "statuses": {
+          "succeeded": 203
+        }
+      },
+      "P": {
+        "offered": 80,
+        "completed": 80,
+        "slo_passed": 25,
+        "slo_success_fraction": 0.3125,
+        "cohort_goodput": 0.2777777777777778,
+        "wall_goodput": 0.2683819075269634,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 3730.770528491121,
+        "successful_ttft_p95_ms": 11473.343447357183,
+        "successful_e2e_p95_ms": 19548.96640749066,
+        "statuses": {
+          "succeeded": 80
+        }
+      },
+      "D": {
+        "offered": 50,
+        "completed": 50,
+        "slo_passed": 9,
+        "slo_success_fraction": 0.18,
+        "cohort_goodput": 0.1,
+        "wall_goodput": 0.09661748670970682,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 3706.111695501022,
+        "successful_ttft_p95_ms": 10898.72188172885,
+        "successful_e2e_p95_ms": 41865.26637838688,
+        "statuses": {
+          "succeeded": 50
+        }
+      }
+    }
+  },
+  {
+    "manifest": {
+      "run_id": "B1-light-1101",
+      "url": "http://127.0.0.1:8000/v1/completions",
+      "model": "admission-7b",
+      "trace_sha256": "5664be7b2a790abaa713aa3514d8998c1eab41dd96bf3b68ddaebf7ea784fda7",
+      "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+      "load": "light",
+      "seed": 1101,
+      "offered": 175,
+      "arrival_window_seconds": 90.0,
+      "total_seconds_including_drain": 90.80424829293042,
+      "send_lag_p95_ms": 1.7788096891962366,
+      "native_priority": false,
+      "config": {
+        "backend_url": "http://127.0.0.1:8000",
+        "model": "admission-7b",
+        "policy": "cost_aging",
+        "max_inflight": 64,
+        "work_budget_ms": 45209.44578143134,
+        "queue_limit": 256,
+        "tau_ms": 250.0,
+        "aging_threshold_ms": 2000,
+        "queue_timeout_ms": 60000,
+        "backend_timeout_seconds": 120.0,
+        "max_prompt_tokens": 8192,
+        "max_output_tokens": 512,
+        "cost_intercept_ms": 0.01,
+        "prompt_ms_per_token": 0.07981239198237576,
+        "output_ms_per_token": 9.760444546014249,
+        "cancel_path_verified": true,
+        "event_log": "artifacts/development/gateway-3/gateway_events.jsonl"
+      },
+      "valid": true,
+      "invalid_reasons": [],
+      "statuses": {
+        "succeeded": 175
+      },
+      "frozen_config_sha256": "21ef442a102201e64ac9d00d8ca890674887cbfe2936b482374b984b4100c06a",
+      "gpu_uuid": "GPU-PUBLIC-DEVICE-0",
+      "slot": null,
+      "concurrent_gpu_trials": false,
+      "source_manifest_sha256": "79ba3cd7be4f0cedfee0ad3f49f64e65cee948c057f9287a072ffb717a3104f5",
+      "model_manifest_sha256": "b9a506ac7e1c7c12806a0a2c17a054c880f251e7e85d730d2646ac6aaa0244f6",
+      "environment_sha256": "933915265e1a6fcff31ece2b117d8d097c1feec31099327481885a6c41c13bf6"
+    },
+    "stats": {
+      "offered": 175,
+      "completed": 175,
+      "slo_passed": 153,
+      "slo_success_fraction": 0.8742857142857143,
+      "cohort_goodput": 1.7,
+      "wall_goodput": 1.6849431923760756,
+      "failure_fraction": 0.0,
+      "successful_ttft_p50_ms": 80.69748093839735,
+      "successful_ttft_p95_ms": 953.7669040961187,
+      "successful_e2e_p95_ms": 8396.545674593654,
+      "statuses": {
+        "succeeded": 175
+      }
+    },
+    "by_class": {
+      "S": {
+        "offered": 111,
+        "completed": 111,
+        "slo_passed": 91,
+        "slo_success_fraction": 0.8198198198198198,
+        "cohort_goodput": 1.011111111111111,
+        "wall_goodput": 1.0021557549426332,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 77.23382802214473,
+        "successful_ttft_p95_ms": 957.626249466557,
+        "successful_e2e_p95_ms": 3670.762863534037,
+        "statuses": {
+          "succeeded": 111
+        }
+      },
+      "P": {
+        "offered": 37,
+        "completed": 37,
+        "slo_passed": 37,
+        "slo_success_fraction": 1.0,
+        "cohort_goodput": 0.4111111111111111,
+        "wall_goodput": 0.4074699223393124,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 648.7041920190677,
+        "successful_ttft_p95_ms": 1061.4112762501463,
+        "successful_e2e_p95_ms": 4423.9283844130105,
+        "statuses": {
+          "succeeded": 37
+        }
+      },
+      "D": {
+        "offered": 27,
+        "completed": 27,
+        "slo_passed": 25,
+        "slo_success_fraction": 0.9259259259259259,
+        "cohort_goodput": 0.2777777777777778,
+        "wall_goodput": 0.27531751509413,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 75.30441100243479,
+        "successful_ttft_p95_ms": 595.0834405724889,
+        "successful_e2e_p95_ms": 9912.935535935685,
+        "statuses": {
+          "succeeded": 27
+        }
+      }
+    }
+  },
+  {
+    "manifest": {
+      "run_id": "B1-light-1102",
+      "url": "http://127.0.0.1:8000/v1/completions",
+      "model": "admission-7b",
+      "trace_sha256": "a93bfdadb94a9179763b291b79f4b16861218eff9c0d4bac3531ce21873b5684",
+      "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+      "load": "light",
+      "seed": 1102,
+      "offered": 184,
+      "arrival_window_seconds": 90.0,
+      "total_seconds_including_drain": 93.35031906398945,
+      "send_lag_p95_ms": 1.9906038711884109,
+      "native_priority": false,
+      "config": {
+        "backend_url": "http://127.0.0.1:8000",
+        "model": "admission-7b",
+        "policy": "cost_aging",
+        "max_inflight": 64,
+        "work_budget_ms": 45209.44578143134,
+        "queue_limit": 256,
+        "tau_ms": 250.0,
+        "aging_threshold_ms": 2000,
+        "queue_timeout_ms": 60000,
+        "backend_timeout_seconds": 120.0,
+        "max_prompt_tokens": 8192,
+        "max_output_tokens": 512,
+        "cost_intercept_ms": 0.01,
+        "prompt_ms_per_token": 0.07981239198237576,
+        "output_ms_per_token": 9.760444546014249,
+        "cancel_path_verified": true,
+        "event_log": "artifacts/development/gateway-3/gateway_events.jsonl"
+      },
+      "valid": true,
+      "invalid_reasons": [],
+      "statuses": {
+        "succeeded": 184
+      },
+      "frozen_config_sha256": "21ef442a102201e64ac9d00d8ca890674887cbfe2936b482374b984b4100c06a",
+      "gpu_uuid": "GPU-PUBLIC-DEVICE-0",
+      "slot": null,
+      "concurrent_gpu_trials": false,
+      "source_manifest_sha256": "79ba3cd7be4f0cedfee0ad3f49f64e65cee948c057f9287a072ffb717a3104f5",
+      "model_manifest_sha256": "b9a506ac7e1c7c12806a0a2c17a054c880f251e7e85d730d2646ac6aaa0244f6",
+      "environment_sha256": "933915265e1a6fcff31ece2b117d8d097c1feec31099327481885a6c41c13bf6"
+    },
+    "stats": {
+      "offered": 184,
+      "completed": 184,
+      "slo_passed": 163,
+      "slo_success_fraction": 0.8858695652173914,
+      "cohort_goodput": 1.8111111111111111,
+      "wall_goodput": 1.7461107967747527,
+      "failure_fraction": 0.0,
+      "successful_ttft_p50_ms": 84.04330047778785,
+      "successful_ttft_p95_ms": 818.8267520279622,
+      "successful_e2e_p95_ms": 7274.486548634012,
+      "statuses": {
+        "succeeded": 184
+      }
+    },
+    "by_class": {
+      "S": {
+        "offered": 116,
+        "completed": 116,
+        "slo_passed": 98,
+        "slo_success_fraction": 0.8448275862068966,
+        "cohort_goodput": 1.0888888888888888,
+        "wall_goodput": 1.049808945300158,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 75.47010853886604,
+        "successful_ttft_p95_ms": 715.1645213016309,
+        "successful_e2e_p95_ms": 3928.3345810254104,
+        "statuses": {
+          "succeeded": 116
+        }
+      },
+      "P": {
+        "offered": 44,
+        "completed": 44,
+        "slo_passed": 44,
+        "slo_success_fraction": 1.0,
+        "cohort_goodput": 0.4888888888888889,
+        "wall_goodput": 0.4713427917674179,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 654.0263240458444,
+        "successful_ttft_p95_ms": 1001.4163512154482,
+        "successful_e2e_p95_ms": 4452.140162646539,
+        "statuses": {
+          "succeeded": 44
+        }
+      },
+      "D": {
+        "offered": 24,
+        "completed": 24,
+        "slo_passed": 21,
+        "slo_success_fraction": 0.875,
+        "cohort_goodput": 0.23333333333333334,
+        "wall_goodput": 0.22495905970717672,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 85.48624749528244,
+        "successful_ttft_p95_ms": 901.3775841624005,
+        "successful_e2e_p95_ms": 11194.94973338442,
+        "statuses": {
+          "succeeded": 24
+        }
+      }
+    }
+  },
+  {
+    "manifest": {
+      "run_id": "B1-light-1103",
+      "url": "http://127.0.0.1:8000/v1/completions",
+      "model": "admission-7b",
+      "trace_sha256": "834a138a13406ed35d8110a5a1352262e3b15932a983085d68a5f129e1b6f8e4",
+      "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+      "load": "light",
+      "seed": 1103,
+      "offered": 171,
+      "arrival_window_seconds": 90.0,
+      "total_seconds_including_drain": 90.87727805308532,
+      "send_lag_p95_ms": 2.0823909269438445,
+      "native_priority": false,
+      "config": {
+        "backend_url": "http://127.0.0.1:8000",
+        "model": "admission-7b",
+        "policy": "cost_aging",
+        "max_inflight": 64,
+        "work_budget_ms": 45209.44578143134,
+        "queue_limit": 256,
+        "tau_ms": 250.0,
+        "aging_threshold_ms": 2000,
+        "queue_timeout_ms": 60000,
+        "backend_timeout_seconds": 120.0,
+        "max_prompt_tokens": 8192,
+        "max_output_tokens": 512,
+        "cost_intercept_ms": 0.01,
+        "prompt_ms_per_token": 0.07981239198237576,
+        "output_ms_per_token": 9.760444546014249,
+        "cancel_path_verified": true,
+        "event_log": "artifacts/development/gateway-3/gateway_events.jsonl"
+      },
+      "valid": true,
+      "invalid_reasons": [],
+      "statuses": {
+        "succeeded": 171
+      },
+      "frozen_config_sha256": "21ef442a102201e64ac9d00d8ca890674887cbfe2936b482374b984b4100c06a",
+      "gpu_uuid": "GPU-PUBLIC-DEVICE-0",
+      "slot": null,
+      "concurrent_gpu_trials": false,
+      "source_manifest_sha256": "79ba3cd7be4f0cedfee0ad3f49f64e65cee948c057f9287a072ffb717a3104f5",
+      "model_manifest_sha256": "b9a506ac7e1c7c12806a0a2c17a054c880f251e7e85d730d2646ac6aaa0244f6",
+      "environment_sha256": "933915265e1a6fcff31ece2b117d8d097c1feec31099327481885a6c41c13bf6"
+    },
+    "stats": {
+      "offered": 171,
+      "completed": 171,
+      "slo_passed": 129,
+      "slo_success_fraction": 0.7543859649122807,
+      "cohort_goodput": 1.4333333333333333,
+      "wall_goodput": 1.4194967406995351,
+      "failure_fraction": 0.0,
+      "successful_ttft_p50_ms": 272.83725899178535,
+      "successful_ttft_p95_ms": 2006.3895474886522,
+      "successful_e2e_p95_ms": 12298.309810983483,
+      "statuses": {
+        "succeeded": 171
+      }
+    },
+    "by_class": {
+      "S": {
+        "offered": 95,
+        "completed": 95,
+        "slo_passed": 69,
+        "slo_success_fraction": 0.7263157894736842,
+        "cohort_goodput": 0.7666666666666667,
+        "wall_goodput": 0.7592656985137048,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 78.69384298101068,
+        "successful_ttft_p95_ms": 1701.1289609712546,
+        "successful_e2e_p95_ms": 9600.846270238973,
+        "statuses": {
+          "succeeded": 95
+        }
+      },
+      "P": {
+        "offered": 54,
+        "completed": 54,
+        "slo_passed": 42,
+        "slo_success_fraction": 0.7777777777777778,
+        "cohort_goodput": 0.4666666666666667,
+        "wall_goodput": 0.46216172953008117,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 703.9338439935818,
+        "successful_ttft_p95_ms": 2214.312139089452,
+        "successful_e2e_p95_ms": 11695.310164726101,
+        "statuses": {
+          "succeeded": 54
+        }
+      },
+      "D": {
+        "offered": 22,
+        "completed": 22,
+        "slo_passed": 18,
+        "slo_success_fraction": 0.8181818181818182,
+        "cohort_goodput": 0.2,
+        "wall_goodput": 0.1980693126557491,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 77.8924185433425,
+        "successful_ttft_p95_ms": 951.9968454435001,
+        "successful_e2e_p95_ms": 18214.176126511302,
+        "statuses": {
+          "succeeded": 22
+        }
+      }
+    }
+  },
+  {
+    "manifest": {
+      "run_id": "B1-near_capacity-1101",
+      "url": "http://127.0.0.1:8000/v1/completions",
+      "model": "admission-7b",
+      "trace_sha256": "56aedb0da572c75bd4aee21e3bec0241454cc87238a622382a0154efe900c85a",
+      "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+      "load": "near_capacity",
+      "seed": 1101,
+      "offered": 338,
+      "arrival_window_seconds": 90.0,
+      "total_seconds_including_drain": 100.00880188203882,
+      "send_lag_p95_ms": 3.6823696173296834,
+      "native_priority": false,
+      "config": {
+        "backend_url": "http://127.0.0.1:8000",
+        "model": "admission-7b",
+        "policy": "cost_aging",
+        "max_inflight": 64,
+        "work_budget_ms": 45209.44578143134,
+        "queue_limit": 256,
+        "tau_ms": 250.0,
+        "aging_threshold_ms": 2000,
+        "queue_timeout_ms": 60000,
+        "backend_timeout_seconds": 120.0,
+        "max_prompt_tokens": 8192,
+        "max_output_tokens": 512,
+        "cost_intercept_ms": 0.01,
+        "prompt_ms_per_token": 0.07981239198237576,
+        "output_ms_per_token": 9.760444546014249,
+        "cancel_path_verified": true,
+        "event_log": "artifacts/development/gateway-3/gateway_events.jsonl"
+      },
+      "valid": true,
+      "invalid_reasons": [],
+      "statuses": {
+        "succeeded": 338
+      },
+      "frozen_config_sha256": "21ef442a102201e64ac9d00d8ca890674887cbfe2936b482374b984b4100c06a",
+      "gpu_uuid": "GPU-PUBLIC-DEVICE-0",
+      "slot": null,
+      "concurrent_gpu_trials": false,
+      "source_manifest_sha256": "79ba3cd7be4f0cedfee0ad3f49f64e65cee948c057f9287a072ffb717a3104f5",
+      "model_manifest_sha256": "b9a506ac7e1c7c12806a0a2c17a054c880f251e7e85d730d2646ac6aaa0244f6",
+      "environment_sha256": "933915265e1a6fcff31ece2b117d8d097c1feec31099327481885a6c41c13bf6"
+    },
+    "stats": {
+      "offered": 338,
+      "completed": 338,
+      "slo_passed": 135,
+      "slo_success_fraction": 0.3994082840236686,
+      "cohort_goodput": 1.5,
+      "wall_goodput": 1.3498811850504275,
+      "failure_fraction": 0.0,
+      "successful_ttft_p50_ms": 665.9193524974398,
+      "successful_ttft_p95_ms": 3690.8779603603734,
+      "successful_e2e_p95_ms": 18177.978520229215,
+      "statuses": {
+        "succeeded": 338
+      }
+    },
+    "by_class": {
+      "S": {
+        "offered": 206,
+        "completed": 206,
+        "slo_passed": 76,
+        "slo_success_fraction": 0.36893203883495146,
+        "cohort_goodput": 0.8444444444444444,
+        "wall_goodput": 0.7599331115839444,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 494.4263435318135,
+        "successful_ttft_p95_ms": 2622.2313049947843,
+        "successful_e2e_p95_ms": 16283.304922515526,
+        "statuses": {
+          "succeeded": 206
+        }
+      },
+      "P": {
+        "offered": 87,
+        "completed": 87,
+        "slo_passed": 49,
+        "slo_success_fraction": 0.5632183908045977,
+        "cohort_goodput": 0.5444444444444444,
+        "wall_goodput": 0.4899568745738589,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 1276.269018999301,
+        "successful_ttft_p95_ms": 4546.150212793147,
+        "successful_e2e_p95_ms": 17239.543473965023,
+        "statuses": {
+          "succeeded": 87
+        }
+      },
+      "D": {
+        "offered": 45,
+        "completed": 45,
+        "slo_passed": 10,
+        "slo_success_fraction": 0.2222222222222222,
+        "cohort_goodput": 0.1111111111111111,
+        "wall_goodput": 0.09999119889262427,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 338.45512196421623,
+        "successful_ttft_p95_ms": 3401.694731623862,
+        "successful_e2e_p95_ms": 27182.231059414335,
+        "statuses": {
+          "succeeded": 45
+        }
+      }
+    }
+  },
+  {
+    "manifest": {
+      "run_id": "B1-near_capacity-1102",
+      "url": "http://127.0.0.1:8000/v1/completions",
+      "model": "admission-7b",
+      "trace_sha256": "c56ceb8d5b5480f0a225955046eff60a3a2fa0d861ba2d79c112e776fe3ac317",
+      "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+      "load": "near_capacity",
+      "seed": 1102,
+      "offered": 366,
+      "arrival_window_seconds": 90.0,
+      "total_seconds_including_drain": 97.22972928499803,
+      "send_lag_p95_ms": 5.377354183746519,
+      "native_priority": false,
+      "config": {
+        "backend_url": "http://127.0.0.1:8000",
+        "model": "admission-7b",
+        "policy": "cost_aging",
+        "max_inflight": 64,
+        "work_budget_ms": 45209.44578143134,
+        "queue_limit": 256,
+        "tau_ms": 250.0,
+        "aging_threshold_ms": 2000,
+        "queue_timeout_ms": 60000,
+        "backend_timeout_seconds": 120.0,
+        "max_prompt_tokens": 8192,
+        "max_output_tokens": 512,
+        "cost_intercept_ms": 0.01,
+        "prompt_ms_per_token": 0.07981239198237576,
+        "output_ms_per_token": 9.760444546014249,
+        "cancel_path_verified": true,
+        "event_log": "artifacts/development/gateway-3/gateway_events.jsonl"
+      },
+      "valid": true,
+      "invalid_reasons": [],
+      "statuses": {
+        "succeeded": 366
+      },
+      "frozen_config_sha256": "21ef442a102201e64ac9d00d8ca890674887cbfe2936b482374b984b4100c06a",
+      "gpu_uuid": "GPU-PUBLIC-DEVICE-0",
+      "slot": null,
+      "concurrent_gpu_trials": false,
+      "source_manifest_sha256": "79ba3cd7be4f0cedfee0ad3f49f64e65cee948c057f9287a072ffb717a3104f5",
+      "model_manifest_sha256": "b9a506ac7e1c7c12806a0a2c17a054c880f251e7e85d730d2646ac6aaa0244f6",
+      "environment_sha256": "933915265e1a6fcff31ece2b117d8d097c1feec31099327481885a6c41c13bf6"
+    },
+    "stats": {
+      "offered": 366,
+      "completed": 366,
+      "slo_passed": 110,
+      "slo_success_fraction": 0.3005464480874317,
+      "cohort_goodput": 1.2222222222222223,
+      "wall_goodput": 1.1313412143478254,
+      "failure_fraction": 0.0,
+      "successful_ttft_p50_ms": 832.0611764793284,
+      "successful_ttft_p95_ms": 2340.506646549329,
+      "successful_e2e_p95_ms": 20378.83977225283,
+      "statuses": {
+        "succeeded": 366
+      }
+    },
+    "by_class": {
+      "S": {
+        "offered": 223,
+        "completed": 223,
+        "slo_passed": 60,
+        "slo_success_fraction": 0.26905829596412556,
+        "cohort_goodput": 0.6666666666666666,
+        "wall_goodput": 0.6170952078260866,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 733.7738489732146,
+        "successful_ttft_p95_ms": 2215.7516427105274,
+        "successful_e2e_p95_ms": 13760.031871171665,
+        "statuses": {
+          "succeeded": 223
+        }
+      },
+      "P": {
+        "offered": 92,
+        "completed": 92,
+        "slo_passed": 43,
+        "slo_success_fraction": 0.4673913043478261,
+        "cohort_goodput": 0.4777777777777778,
+        "wall_goodput": 0.44225156560869544,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 1116.345363552682,
+        "successful_ttft_p95_ms": 2601.947006548289,
+        "successful_e2e_p95_ms": 14006.545491534052,
+        "statuses": {
+          "succeeded": 92
+        }
+      },
+      "D": {
+        "offered": 51,
+        "completed": 51,
+        "slo_passed": 7,
+        "slo_success_fraction": 0.13725490196078433,
+        "cohort_goodput": 0.07777777777777778,
+        "wall_goodput": 0.07199444091304344,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 840.9017220837995,
+        "successful_ttft_p95_ms": 2018.2341200415976,
+        "successful_e2e_p95_ms": 27040.16098199645,
+        "statuses": {
+          "succeeded": 51
+        }
+      }
+    }
+  },
+  {
+    "manifest": {
+      "run_id": "B1-near_capacity-1103",
+      "url": "http://127.0.0.1:8000/v1/completions",
+      "model": "admission-7b",
+      "trace_sha256": "edd6a19917ba633d2a4c9c43b21d057e71d6d0866ab8874e33b971202105e7c0",
+      "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+      "load": "near_capacity",
+      "seed": 1103,
+      "offered": 343,
+      "arrival_window_seconds": 90.0,
+      "total_seconds_including_drain": 99.42284906399436,
+      "send_lag_p95_ms": 4.713737308453147,
+      "native_priority": false,
+      "config": {
+        "backend_url": "http://127.0.0.1:8000",
+        "model": "admission-7b",
+        "policy": "cost_aging",
+        "max_inflight": 64,
+        "work_budget_ms": 45209.44578143134,
+        "queue_limit": 256,
+        "tau_ms": 250.0,
+        "aging_threshold_ms": 2000,
+        "queue_timeout_ms": 60000,
+        "backend_timeout_seconds": 120.0,
+        "max_prompt_tokens": 8192,
+        "max_output_tokens": 512,
+        "cost_intercept_ms": 0.01,
+        "prompt_ms_per_token": 0.07981239198237576,
+        "output_ms_per_token": 9.760444546014249,
+        "cancel_path_verified": true,
+        "event_log": "artifacts/development/gateway-3/gateway_events.jsonl"
+      },
+      "valid": true,
+      "invalid_reasons": [],
+      "statuses": {
+        "succeeded": 343
+      },
+      "frozen_config_sha256": "21ef442a102201e64ac9d00d8ca890674887cbfe2936b482374b984b4100c06a",
+      "gpu_uuid": "GPU-PUBLIC-DEVICE-0",
+      "slot": null,
+      "concurrent_gpu_trials": false,
+      "source_manifest_sha256": "79ba3cd7be4f0cedfee0ad3f49f64e65cee948c057f9287a072ffb717a3104f5",
+      "model_manifest_sha256": "b9a506ac7e1c7c12806a0a2c17a054c880f251e7e85d730d2646ac6aaa0244f6",
+      "environment_sha256": "933915265e1a6fcff31ece2b117d8d097c1feec31099327481885a6c41c13bf6"
+    },
+    "stats": {
+      "offered": 343,
+      "completed": 343,
+      "slo_passed": 69,
+      "slo_success_fraction": 0.20116618075801748,
+      "cohort_goodput": 0.7666666666666667,
+      "wall_goodput": 0.6940054590025635,
+      "failure_fraction": 0.0,
+      "successful_ttft_p50_ms": 1076.7966479761526,
+      "successful_ttft_p95_ms": 4157.550273009108,
+      "successful_e2e_p95_ms": 24510.444675153045,
+      "statuses": {
+        "succeeded": 343
+      }
+    },
+    "by_class": {
+      "S": {
+        "offered": 188,
+        "completed": 188,
+        "slo_passed": 28,
+        "slo_success_fraction": 0.14893617021276595,
+        "cohort_goodput": 0.3111111111111111,
+        "wall_goodput": 0.2816254036532142,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 915.5165994889103,
+        "successful_ttft_p95_ms": 3951.730974524981,
+        "successful_e2e_p95_ms": 15687.524228013353,
+        "statuses": {
+          "succeeded": 188
+        }
+      },
+      "P": {
+        "offered": 100,
+        "completed": 100,
+        "slo_passed": 37,
+        "slo_success_fraction": 0.37,
+        "cohort_goodput": 0.4111111111111111,
+        "wall_goodput": 0.3721478548274616,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 1659.7138709621504,
+        "successful_ttft_p95_ms": 4943.049239332322,
+        "successful_e2e_p95_ms": 16156.182719493518,
+        "statuses": {
+          "succeeded": 100
+        }
+      },
+      "D": {
+        "offered": 55,
+        "completed": 55,
+        "slo_passed": 4,
+        "slo_success_fraction": 0.07272727272727272,
+        "cohort_goodput": 0.044444444444444446,
+        "wall_goodput": 0.04023220052188774,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 991.7892519151792,
+        "successful_ttft_p95_ms": 3972.0968098845324,
+        "successful_e2e_p95_ms": 42382.40528966999,
+        "statuses": {
+          "succeeded": 55
+        }
+      }
+    }
+  },
+  {
+    "manifest": {
+      "run_id": "B2-burst-1101",
+      "url": "http://127.0.0.1:8080/v1/completions",
+      "model": "admission-7b",
+      "trace_sha256": "3d8416c7a36882ca58f195bb151c173fa29eaf040070172214794e1046dbe93c",
+      "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+      "load": "burst",
+      "seed": 1101,
+      "offered": 323,
+      "arrival_window_seconds": 90.0,
+      "total_seconds_including_drain": 117.29782702994999,
+      "send_lag_p95_ms": 1.9568806886198329,
+      "native_priority": false,
+      "config": {
+        "backend_url": "http://127.0.0.1:8000",
+        "model": "admission-7b",
+        "policy": "fcfs",
+        "max_inflight": 64,
+        "work_budget_ms": 45209.44578143134,
+        "queue_limit": 256,
+        "tau_ms": 250.0,
+        "aging_threshold_ms": 2000,
+        "queue_timeout_ms": 60000,
+        "backend_timeout_seconds": 120.0,
+        "max_prompt_tokens": 8192,
+        "max_output_tokens": 512,
+        "cost_intercept_ms": 0.01,
+        "prompt_ms_per_token": 0.07981239198237576,
+        "output_ms_per_token": 9.760444546014249,
+        "cancel_path_verified": true,
+        "event_log": "artifacts/formal/runs/B2-burst-1101/gateway_events.jsonl"
+      },
+      "valid": true,
+      "invalid_reasons": [],
+      "statuses": {
+        "succeeded": 323
+      },
+      "frozen_config_sha256": "21ef442a102201e64ac9d00d8ca890674887cbfe2936b482374b984b4100c06a",
+      "gpu_uuid": "GPU-PUBLIC-DEVICE-0",
+      "slot": null,
+      "concurrent_gpu_trials": false,
+      "source_manifest_sha256": "79ba3cd7be4f0cedfee0ad3f49f64e65cee948c057f9287a072ffb717a3104f5",
+      "model_manifest_sha256": "b9a506ac7e1c7c12806a0a2c17a054c880f251e7e85d730d2646ac6aaa0244f6",
+      "environment_sha256": "933915265e1a6fcff31ece2b117d8d097c1feec31099327481885a6c41c13bf6"
+    },
+    "stats": {
+      "offered": 323,
+      "completed": 323,
+      "slo_passed": 63,
+      "slo_success_fraction": 0.19504643962848298,
+      "cohort_goodput": 0.7,
+      "wall_goodput": 0.5370943485927837,
+      "failure_fraction": 0.0,
+      "successful_ttft_p50_ms": 13013.968975981697,
+      "successful_ttft_p95_ms": 25668.063714320306,
+      "successful_e2e_p95_ms": 33586.598448245786,
+      "statuses": {
+        "succeeded": 323
+      }
+    },
+    "by_class": {
+      "S": {
+        "offered": 197,
+        "completed": 197,
+        "slo_passed": 34,
+        "slo_success_fraction": 0.17258883248730963,
+        "cohort_goodput": 0.37777777777777777,
+        "wall_goodput": 0.2898604420976928,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 11670.417742920108,
+        "successful_ttft_p95_ms": 25611.022091144696,
+        "successful_e2e_p95_ms": 27946.436353819445,
+        "statuses": {
+          "succeeded": 197
+        }
+      },
+      "P": {
+        "offered": 87,
+        "completed": 87,
+        "slo_passed": 25,
+        "slo_success_fraction": 0.28735632183908044,
+        "cohort_goodput": 0.2777777777777778,
+        "wall_goodput": 0.2131326780130094,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 12106.507763965055,
+        "successful_ttft_p95_ms": 25882.434950140305,
+        "successful_e2e_p95_ms": 28370.95771651948,
+        "statuses": {
+          "succeeded": 87
+        }
+      },
+      "D": {
+        "offered": 39,
+        "completed": 39,
+        "slo_passed": 4,
+        "slo_success_fraction": 0.10256410256410256,
+        "cohort_goodput": 0.044444444444444446,
+        "wall_goodput": 0.034101228482081504,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 20519.73109797109,
+        "successful_ttft_p95_ms": 25598.504860140383,
+        "successful_e2e_p95_ms": 38360.470909648575,
+        "statuses": {
+          "succeeded": 39
+        }
+      }
+    }
+  },
+  {
+    "manifest": {
+      "run_id": "B2-burst-1102",
+      "url": "http://127.0.0.1:8080/v1/completions",
+      "model": "admission-7b",
+      "trace_sha256": "6679813b3d2a8a6f1eb5eefd1f06e0e60c2d2fbbe745b68e26f61f520a707608",
+      "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+      "load": "burst",
+      "seed": 1102,
+      "offered": 347,
+      "arrival_window_seconds": 90.0,
+      "total_seconds_including_drain": 119.63511957600713,
+      "send_lag_p95_ms": 1.8701769327400086,
+      "native_priority": false,
+      "config": {
+        "backend_url": "http://127.0.0.1:8000",
+        "model": "admission-7b",
+        "policy": "fcfs",
+        "max_inflight": 64,
+        "work_budget_ms": 45209.44578143134,
+        "queue_limit": 256,
+        "tau_ms": 250.0,
+        "aging_threshold_ms": 2000,
+        "queue_timeout_ms": 60000,
+        "backend_timeout_seconds": 120.0,
+        "max_prompt_tokens": 8192,
+        "max_output_tokens": 512,
+        "cost_intercept_ms": 0.01,
+        "prompt_ms_per_token": 0.07981239198237576,
+        "output_ms_per_token": 9.760444546014249,
+        "cancel_path_verified": true,
+        "event_log": "artifacts/formal/runs/B2-burst-1102/gateway_events.jsonl"
+      },
+      "valid": true,
+      "invalid_reasons": [],
+      "statuses": {
+        "succeeded": 347
+      },
+      "frozen_config_sha256": "21ef442a102201e64ac9d00d8ca890674887cbfe2936b482374b984b4100c06a",
+      "gpu_uuid": "GPU-PUBLIC-DEVICE-0",
+      "slot": null,
+      "concurrent_gpu_trials": false,
+      "source_manifest_sha256": "79ba3cd7be4f0cedfee0ad3f49f64e65cee948c057f9287a072ffb717a3104f5",
+      "model_manifest_sha256": "b9a506ac7e1c7c12806a0a2c17a054c880f251e7e85d730d2646ac6aaa0244f6",
+      "environment_sha256": "933915265e1a6fcff31ece2b117d8d097c1feec31099327481885a6c41c13bf6"
+    },
+    "stats": {
+      "offered": 347,
+      "completed": 347,
+      "slo_passed": 62,
+      "slo_success_fraction": 0.1786743515850144,
+      "cohort_goodput": 0.6888888888888889,
+      "wall_goodput": 0.518242471104899,
+      "failure_fraction": 0.0,
+      "successful_ttft_p50_ms": 15228.750343085267,
+      "successful_ttft_p95_ms": 27581.63438992342,
+      "successful_e2e_p95_ms": 33149.08724752022,
+      "statuses": {
+        "succeeded": 347
+      }
+    },
+    "by_class": {
+      "S": {
+        "offered": 206,
+        "completed": 206,
+        "slo_passed": 29,
+        "slo_success_fraction": 0.1407766990291262,
+        "cohort_goodput": 0.32222222222222224,
+        "wall_goodput": 0.2424037364845495,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 15455.962890060619,
+        "successful_ttft_p95_ms": 27477.1068689588,
+        "successful_e2e_p95_ms": 30812.12832403253,
+        "statuses": {
+          "succeeded": 206
+        }
+      },
+      "P": {
+        "offered": 96,
+        "completed": 96,
+        "slo_passed": 27,
+        "slo_success_fraction": 0.28125,
+        "cohort_goodput": 0.3,
+        "wall_goodput": 0.22568623741664953,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 16056.455774523783,
+        "successful_ttft_p95_ms": 27723.604062455706,
+        "successful_e2e_p95_ms": 31005.082993971882,
+        "statuses": {
+          "succeeded": 96
+        }
+      },
+      "D": {
+        "offered": 45,
+        "completed": 45,
+        "slo_passed": 6,
+        "slo_success_fraction": 0.13333333333333333,
+        "cohort_goodput": 0.06666666666666667,
+        "wall_goodput": 0.050152497203699895,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 11500.490201055072,
+        "successful_ttft_p95_ms": 27510.009194817394,
+        "successful_e2e_p95_ms": 41481.705725425854,
+        "statuses": {
+          "succeeded": 45
+        }
+      }
+    }
+  },
+  {
+    "manifest": {
+      "run_id": "B2-burst-1103",
+      "url": "http://127.0.0.1:8080/v1/completions",
+      "model": "admission-7b",
+      "trace_sha256": "f990f24cddb7c1f5a5c9aee27c16391af2508e501e4f8900e0a93053523d3d71",
+      "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+      "load": "burst",
+      "seed": 1103,
+      "offered": 333,
+      "arrival_window_seconds": 90.0,
+      "total_seconds_including_drain": 118.11548591800965,
+      "send_lag_p95_ms": 2.1240186388439475,
+      "native_priority": false,
+      "config": {
+        "backend_url": "http://127.0.0.1:8000",
+        "model": "admission-7b",
+        "policy": "fcfs",
+        "max_inflight": 64,
+        "work_budget_ms": 45209.44578143134,
+        "queue_limit": 256,
+        "tau_ms": 250.0,
+        "aging_threshold_ms": 2000,
+        "queue_timeout_ms": 60000,
+        "backend_timeout_seconds": 120.0,
+        "max_prompt_tokens": 8192,
+        "max_output_tokens": 512,
+        "cost_intercept_ms": 0.01,
+        "prompt_ms_per_token": 0.07981239198237576,
+        "output_ms_per_token": 9.760444546014249,
+        "cancel_path_verified": true,
+        "event_log": "artifacts/formal/runs/B2-burst-1103/gateway_events.jsonl"
+      },
+      "valid": true,
+      "invalid_reasons": [],
+      "statuses": {
+        "succeeded": 333
+      },
+      "frozen_config_sha256": "21ef442a102201e64ac9d00d8ca890674887cbfe2936b482374b984b4100c06a",
+      "gpu_uuid": "GPU-PUBLIC-DEVICE-0",
+      "slot": null,
+      "concurrent_gpu_trials": false,
+      "source_manifest_sha256": "79ba3cd7be4f0cedfee0ad3f49f64e65cee948c057f9287a072ffb717a3104f5",
+      "model_manifest_sha256": "b9a506ac7e1c7c12806a0a2c17a054c880f251e7e85d730d2646ac6aaa0244f6",
+      "environment_sha256": "933915265e1a6fcff31ece2b117d8d097c1feec31099327481885a6c41c13bf6"
+    },
+    "stats": {
+      "offered": 333,
+      "completed": 333,
+      "slo_passed": 71,
+      "slo_success_fraction": 0.2132132132132132,
+      "cohort_goodput": 0.7888888888888889,
+      "wall_goodput": 0.601106615683611,
+      "failure_fraction": 0.0,
+      "successful_ttft_p50_ms": 10837.934687035158,
+      "successful_ttft_p95_ms": 31432.029642979614,
+      "successful_e2e_p95_ms": 36610.54395926185,
+      "statuses": {
+        "succeeded": 333
+      }
+    },
+    "by_class": {
+      "S": {
+        "offered": 203,
+        "completed": 203,
+        "slo_passed": 38,
+        "slo_success_fraction": 0.18719211822660098,
+        "cohort_goodput": 0.4222222222222222,
+        "wall_goodput": 0.321719033746158,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 9893.224484054372,
+        "successful_ttft_p95_ms": 31265.909245167855,
+        "successful_e2e_p95_ms": 34397.76559651363,
+        "statuses": {
+          "succeeded": 203
+        }
+      },
+      "P": {
+        "offered": 80,
+        "completed": 80,
+        "slo_passed": 26,
+        "slo_success_fraction": 0.325,
+        "cohort_goodput": 0.28888888888888886,
+        "wall_goodput": 0.22012354940526602,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 12836.46265254356,
+        "successful_ttft_p95_ms": 31623.766638460802,
+        "successful_e2e_p95_ms": 35278.05016491329,
+        "statuses": {
+          "succeeded": 80
+        }
+      },
+      "D": {
+        "offered": 50,
+        "completed": 50,
+        "slo_passed": 7,
+        "slo_success_fraction": 0.14,
+        "cohort_goodput": 0.07777777777777778,
+        "wall_goodput": 0.059264032532187004,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 16897.520696977153,
+        "successful_ttft_p95_ms": 31244.08006966696,
+        "successful_e2e_p95_ms": 43907.31377956108,
+        "statuses": {
+          "succeeded": 50
+        }
+      }
+    }
+  },
+  {
+    "manifest": {
+      "run_id": "B2-light-1101",
+      "url": "http://127.0.0.1:8080/v1/completions",
+      "model": "admission-7b",
+      "trace_sha256": "5664be7b2a790abaa713aa3514d8998c1eab41dd96bf3b68ddaebf7ea784fda7",
+      "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+      "load": "light",
+      "seed": 1101,
+      "offered": 175,
+      "arrival_window_seconds": 90.0,
+      "total_seconds_including_drain": 90.80580289592035,
+      "send_lag_p95_ms": 1.8659841219253783,
+      "native_priority": false,
+      "config": {
+        "backend_url": "http://127.0.0.1:8000",
+        "model": "admission-7b",
+        "policy": "fcfs",
+        "max_inflight": 64,
+        "work_budget_ms": 45209.44578143134,
+        "queue_limit": 256,
+        "tau_ms": 250.0,
+        "aging_threshold_ms": 2000,
+        "queue_timeout_ms": 60000,
+        "backend_timeout_seconds": 120.0,
+        "max_prompt_tokens": 8192,
+        "max_output_tokens": 512,
+        "cost_intercept_ms": 0.01,
+        "prompt_ms_per_token": 0.07981239198237576,
+        "output_ms_per_token": 9.760444546014249,
+        "cancel_path_verified": true,
+        "event_log": "artifacts/formal/runs/B2-light-1101/gateway_events.jsonl"
+      },
+      "valid": true,
+      "invalid_reasons": [],
+      "statuses": {
+        "succeeded": 175
+      },
+      "frozen_config_sha256": "21ef442a102201e64ac9d00d8ca890674887cbfe2936b482374b984b4100c06a",
+      "gpu_uuid": "GPU-PUBLIC-DEVICE-0",
+      "slot": null,
+      "concurrent_gpu_trials": false,
+      "source_manifest_sha256": "79ba3cd7be4f0cedfee0ad3f49f64e65cee948c057f9287a072ffb717a3104f5",
+      "model_manifest_sha256": "b9a506ac7e1c7c12806a0a2c17a054c880f251e7e85d730d2646ac6aaa0244f6",
+      "environment_sha256": "933915265e1a6fcff31ece2b117d8d097c1feec31099327481885a6c41c13bf6"
+    },
+    "stats": {
+      "offered": 175,
+      "completed": 175,
+      "slo_passed": 150,
+      "slo_success_fraction": 0.8571428571428571,
+      "cohort_goodput": 1.6666666666666667,
+      "wall_goodput": 1.6518768098105663,
+      "failure_fraction": 0.0,
+      "successful_ttft_p50_ms": 93.2119470089674,
+      "successful_ttft_p95_ms": 984.4702956732361,
+      "successful_e2e_p95_ms": 8369.084688811563,
+      "statuses": {
+        "succeeded": 175
+      }
+    },
+    "by_class": {
+      "S": {
+        "offered": 111,
+        "completed": 111,
+        "slo_passed": 89,
+        "slo_success_fraction": 0.8018018018018018,
+        "cohort_goodput": 0.9888888888888889,
+        "wall_goodput": 0.980113573820936,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 82.75272604078054,
+        "successful_ttft_p95_ms": 964.4041209830903,
+        "successful_e2e_p95_ms": 3675.3063590149395,
+        "statuses": {
+          "succeeded": 111
+        }
+      },
+      "P": {
+        "offered": 37,
+        "completed": 37,
+        "slo_passed": 36,
+        "slo_success_fraction": 0.972972972972973,
+        "cohort_goodput": 0.4,
+        "wall_goodput": 0.3964504343545359,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 663.816166925244,
+        "successful_ttft_p95_ms": 1331.4864541636753,
+        "successful_e2e_p95_ms": 4418.705976777709,
+        "statuses": {
+          "succeeded": 37
+        }
+      },
+      "D": {
+        "offered": 27,
+        "completed": 27,
+        "slo_passed": 25,
+        "slo_success_fraction": 0.9259259259259259,
+        "cohort_goodput": 0.2777777777777778,
+        "wall_goodput": 0.2753128016350944,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 80.28836897574365,
+        "successful_ttft_p95_ms": 613.7743717059492,
+        "successful_e2e_p95_ms": 10050.77125634998,
+        "statuses": {
+          "succeeded": 27
+        }
+      }
+    }
+  },
+  {
+    "manifest": {
+      "run_id": "B2-light-1102",
+      "url": "http://127.0.0.1:8080/v1/completions",
+      "model": "admission-7b",
+      "trace_sha256": "a93bfdadb94a9179763b291b79f4b16861218eff9c0d4bac3531ce21873b5684",
+      "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+      "load": "light",
+      "seed": 1102,
+      "offered": 184,
+      "arrival_window_seconds": 90.0,
+      "total_seconds_including_drain": 93.36133443692233,
+      "send_lag_p95_ms": 1.5939365106302006,
+      "native_priority": false,
+      "config": {
+        "backend_url": "http://127.0.0.1:8000",
+        "model": "admission-7b",
+        "policy": "fcfs",
+        "max_inflight": 64,
+        "work_budget_ms": 45209.44578143134,
+        "queue_limit": 256,
+        "tau_ms": 250.0,
+        "aging_threshold_ms": 2000,
+        "queue_timeout_ms": 60000,
+        "backend_timeout_seconds": 120.0,
+        "max_prompt_tokens": 8192,
+        "max_output_tokens": 512,
+        "cost_intercept_ms": 0.01,
+        "prompt_ms_per_token": 0.07981239198237576,
+        "output_ms_per_token": 9.760444546014249,
+        "cancel_path_verified": true,
+        "event_log": "artifacts/formal/runs/B2-light-1102/gateway_events.jsonl"
+      },
+      "valid": true,
+      "invalid_reasons": [],
+      "statuses": {
+        "succeeded": 184
+      },
+      "frozen_config_sha256": "21ef442a102201e64ac9d00d8ca890674887cbfe2936b482374b984b4100c06a",
+      "gpu_uuid": "GPU-PUBLIC-DEVICE-0",
+      "slot": null,
+      "concurrent_gpu_trials": false,
+      "source_manifest_sha256": "79ba3cd7be4f0cedfee0ad3f49f64e65cee948c057f9287a072ffb717a3104f5",
+      "model_manifest_sha256": "b9a506ac7e1c7c12806a0a2c17a054c880f251e7e85d730d2646ac6aaa0244f6",
+      "environment_sha256": "933915265e1a6fcff31ece2b117d8d097c1feec31099327481885a6c41c13bf6"
+    },
+    "stats": {
+      "offered": 184,
+      "completed": 184,
+      "slo_passed": 161,
+      "slo_success_fraction": 0.875,
+      "cohort_goodput": 1.788888888888889,
+      "wall_goodput": 1.7244826348189821,
+      "failure_fraction": 0.0,
+      "successful_ttft_p50_ms": 91.30272653419524,
+      "successful_ttft_p95_ms": 830.2797713375184,
+      "successful_e2e_p95_ms": 7300.464170926715,
+      "statuses": {
+        "succeeded": 184
+      }
+    },
+    "by_class": {
+      "S": {
+        "offered": 116,
+        "completed": 116,
+        "slo_passed": 97,
+        "slo_success_fraction": 0.8362068965517241,
+        "cohort_goodput": 1.0777777777777777,
+        "wall_goodput": 1.0389740097977718,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 82.2137130307965,
+        "successful_ttft_p95_ms": 727.9762931866571,
+        "successful_e2e_p95_ms": 3937.5449554936495,
+        "statuses": {
+          "succeeded": 116
+        }
+      },
+      "P": {
+        "offered": 44,
+        "completed": 44,
+        "slo_passed": 44,
+        "slo_success_fraction": 1.0,
+        "cohort_goodput": 0.4888888888888889,
+        "wall_goodput": 0.47128717970208206,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 666.653242544271,
+        "successful_ttft_p95_ms": 1016.7294611979742,
+        "successful_e2e_p95_ms": 4469.5507202646695,
+        "statuses": {
+          "succeeded": 44
+        }
+      },
+      "D": {
+        "offered": 24,
+        "completed": 24,
+        "slo_passed": 20,
+        "slo_success_fraction": 0.8333333333333334,
+        "cohort_goodput": 0.2222222222222222,
+        "wall_goodput": 0.2142214453191282,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 86.62339200964198,
+        "successful_ttft_p95_ms": 914.7131716308644,
+        "successful_e2e_p95_ms": 11204.208983993158,
+        "statuses": {
+          "succeeded": 24
+        }
+      }
+    }
+  },
+  {
+    "manifest": {
+      "run_id": "B2-light-1103",
+      "url": "http://127.0.0.1:8080/v1/completions",
+      "model": "admission-7b",
+      "trace_sha256": "834a138a13406ed35d8110a5a1352262e3b15932a983085d68a5f129e1b6f8e4",
+      "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+      "load": "light",
+      "seed": 1103,
+      "offered": 171,
+      "arrival_window_seconds": 90.0,
+      "total_seconds_including_drain": 90.88292324496433,
+      "send_lag_p95_ms": 1.599211498506392,
+      "native_priority": false,
+      "config": {
+        "backend_url": "http://127.0.0.1:8000",
+        "model": "admission-7b",
+        "policy": "fcfs",
+        "max_inflight": 64,
+        "work_budget_ms": 45209.44578143134,
+        "queue_limit": 256,
+        "tau_ms": 250.0,
+        "aging_threshold_ms": 2000,
+        "queue_timeout_ms": 60000,
+        "backend_timeout_seconds": 120.0,
+        "max_prompt_tokens": 8192,
+        "max_output_tokens": 512,
+        "cost_intercept_ms": 0.01,
+        "prompt_ms_per_token": 0.07981239198237576,
+        "output_ms_per_token": 9.760444546014249,
+        "cancel_path_verified": true,
+        "event_log": "artifacts/formal/runs/B2-light-1103/gateway_events.jsonl"
+      },
+      "valid": true,
+      "invalid_reasons": [],
+      "statuses": {
+        "succeeded": 171
+      },
+      "frozen_config_sha256": "21ef442a102201e64ac9d00d8ca890674887cbfe2936b482374b984b4100c06a",
+      "gpu_uuid": "GPU-PUBLIC-DEVICE-0",
+      "slot": null,
+      "concurrent_gpu_trials": false,
+      "source_manifest_sha256": "79ba3cd7be4f0cedfee0ad3f49f64e65cee948c057f9287a072ffb717a3104f5",
+      "model_manifest_sha256": "b9a506ac7e1c7c12806a0a2c17a054c880f251e7e85d730d2646ac6aaa0244f6",
+      "environment_sha256": "933915265e1a6fcff31ece2b117d8d097c1feec31099327481885a6c41c13bf6"
+    },
+    "stats": {
+      "offered": 171,
+      "completed": 171,
+      "slo_passed": 122,
+      "slo_success_fraction": 0.7134502923976608,
+      "cohort_goodput": 1.3555555555555556,
+      "wall_goodput": 1.3423863982803812,
+      "failure_fraction": 0.0,
+      "successful_ttft_p50_ms": 442.86924798507243,
+      "successful_ttft_p95_ms": 2388.7607169453986,
+      "successful_e2e_p95_ms": 9623.450483486522,
+      "statuses": {
+        "succeeded": 171
+      }
+    },
+    "by_class": {
+      "S": {
+        "offered": 95,
+        "completed": 95,
+        "slo_passed": 68,
+        "slo_success_fraction": 0.7157894736842105,
+        "cohort_goodput": 0.7555555555555555,
+        "wall_goodput": 0.7482153695333272,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 85.34929703455418,
+        "successful_ttft_p95_ms": 2134.1185711091384,
+        "successful_e2e_p95_ms": 8408.133328869008,
+        "statuses": {
+          "succeeded": 95
+        }
+      },
+      "P": {
+        "offered": 54,
+        "completed": 54,
+        "slo_passed": 36,
+        "slo_success_fraction": 0.6666666666666666,
+        "cohort_goodput": 0.4,
+        "wall_goodput": 0.3961140191647026,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 795.0653554289602,
+        "successful_ttft_p95_ms": 2930.359066819072,
+        "successful_e2e_p95_ms": 9162.866214680253,
+        "statuses": {
+          "succeeded": 54
+        }
+      },
+      "D": {
+        "offered": 22,
+        "completed": 22,
+        "slo_passed": 18,
+        "slo_success_fraction": 0.8181818181818182,
+        "cohort_goodput": 0.2,
+        "wall_goodput": 0.1980570095823513,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 84.57210252527148,
+        "successful_ttft_p95_ms": 967.538286052877,
+        "successful_e2e_p95_ms": 13903.948276187293,
+        "statuses": {
+          "succeeded": 22
+        }
+      }
+    }
+  },
+  {
+    "manifest": {
+      "run_id": "B2-near_capacity-1101",
+      "url": "http://127.0.0.1:8080/v1/completions",
+      "model": "admission-7b",
+      "trace_sha256": "56aedb0da572c75bd4aee21e3bec0241454cc87238a622382a0154efe900c85a",
+      "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+      "load": "near_capacity",
+      "seed": 1101,
+      "offered": 338,
+      "arrival_window_seconds": 90.0,
+      "total_seconds_including_drain": 113.51557634200435,
+      "send_lag_p95_ms": 2.071218784538686,
+      "native_priority": false,
+      "config": {
+        "backend_url": "http://127.0.0.1:8000",
+        "model": "admission-7b",
+        "policy": "fcfs",
+        "max_inflight": 64,
+        "work_budget_ms": 45209.44578143134,
+        "queue_limit": 256,
+        "tau_ms": 250.0,
+        "aging_threshold_ms": 2000,
+        "queue_timeout_ms": 60000,
+        "backend_timeout_seconds": 120.0,
+        "max_prompt_tokens": 8192,
+        "max_output_tokens": 512,
+        "cost_intercept_ms": 0.01,
+        "prompt_ms_per_token": 0.07981239198237576,
+        "output_ms_per_token": 9.760444546014249,
+        "cancel_path_verified": true,
+        "event_log": "artifacts/formal/runs/B2-near_capacity-1101/gateway_events.jsonl"
+      },
+      "valid": true,
+      "invalid_reasons": [],
+      "statuses": {
+        "succeeded": 338
+      },
+      "frozen_config_sha256": "21ef442a102201e64ac9d00d8ca890674887cbfe2936b482374b984b4100c06a",
+      "gpu_uuid": "GPU-PUBLIC-DEVICE-0",
+      "slot": null,
+      "concurrent_gpu_trials": false,
+      "source_manifest_sha256": "79ba3cd7be4f0cedfee0ad3f49f64e65cee948c057f9287a072ffb717a3104f5",
+      "model_manifest_sha256": "b9a506ac7e1c7c12806a0a2c17a054c880f251e7e85d730d2646ac6aaa0244f6",
+      "environment_sha256": "933915265e1a6fcff31ece2b117d8d097c1feec31099327481885a6c41c13bf6"
+    },
+    "stats": {
+      "offered": 338,
+      "completed": 338,
+      "slo_passed": 53,
+      "slo_success_fraction": 0.15680473372781065,
+      "cohort_goodput": 0.5888888888888889,
+      "wall_goodput": 0.4668962772150268,
+      "failure_fraction": 0.0,
+      "successful_ttft_p50_ms": 2525.5321515141986,
+      "successful_ttft_p95_ms": 16515.740011545127,
+      "successful_e2e_p95_ms": 20981.51072387699,
+      "statuses": {
+        "succeeded": 338
+      }
+    },
+    "by_class": {
+      "S": {
+        "offered": 206,
+        "completed": 206,
+        "slo_passed": 24,
+        "slo_success_fraction": 0.11650485436893204,
+        "cohort_goodput": 0.26666666666666666,
+        "wall_goodput": 0.2114247293049178,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 2207.451899012085,
+        "successful_ttft_p95_ms": 16103.559860261157,
+        "successful_e2e_p95_ms": 19075.065557000926,
+        "statuses": {
+          "succeeded": 206
+        }
+      },
+      "P": {
+        "offered": 87,
+        "completed": 87,
+        "slo_passed": 28,
+        "slo_success_fraction": 0.3218390804597701,
+        "cohort_goodput": 0.3111111111111111,
+        "wall_goodput": 0.24666218418907077,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 3034.8835750482976,
+        "successful_ttft_p95_ms": 17222.326544648968,
+        "successful_e2e_p95_ms": 19721.673038240988,
+        "statuses": {
+          "succeeded": 87
+        }
+      },
+      "D": {
+        "offered": 45,
+        "completed": 45,
+        "slo_passed": 1,
+        "slo_success_fraction": 0.022222222222222223,
+        "cohort_goodput": 0.011111111111111112,
+        "wall_goodput": 0.008809363721038242,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 4222.3056820221245,
+        "successful_ttft_p95_ms": 16339.011821802704,
+        "successful_e2e_p95_ms": 28484.732882957902,
+        "statuses": {
+          "succeeded": 45
+        }
+      }
+    }
+  },
+  {
+    "manifest": {
+      "run_id": "B2-near_capacity-1102",
+      "url": "http://127.0.0.1:8080/v1/completions",
+      "model": "admission-7b",
+      "trace_sha256": "c56ceb8d5b5480f0a225955046eff60a3a2fa0d861ba2d79c112e776fe3ac317",
+      "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+      "load": "near_capacity",
+      "seed": 1102,
+      "offered": 366,
+      "arrival_window_seconds": 90.0,
+      "total_seconds_including_drain": 118.49301089707296,
+      "send_lag_p95_ms": 1.9590914317422214,
+      "native_priority": false,
+      "config": {
+        "backend_url": "http://127.0.0.1:8000",
+        "model": "admission-7b",
+        "policy": "fcfs",
+        "max_inflight": 64,
+        "work_budget_ms": 45209.44578143134,
+        "queue_limit": 256,
+        "tau_ms": 250.0,
+        "aging_threshold_ms": 2000,
+        "queue_timeout_ms": 60000,
+        "backend_timeout_seconds": 120.0,
+        "max_prompt_tokens": 8192,
+        "max_output_tokens": 512,
+        "cost_intercept_ms": 0.01,
+        "prompt_ms_per_token": 0.07981239198237576,
+        "output_ms_per_token": 9.760444546014249,
+        "cancel_path_verified": true,
+        "event_log": "artifacts/formal/runs/B2-near_capacity-1102/gateway_events.jsonl"
+      },
+      "valid": true,
+      "invalid_reasons": [],
+      "statuses": {
+        "succeeded": 366
+      },
+      "frozen_config_sha256": "21ef442a102201e64ac9d00d8ca890674887cbfe2936b482374b984b4100c06a",
+      "gpu_uuid": "GPU-PUBLIC-DEVICE-0",
+      "slot": null,
+      "concurrent_gpu_trials": false,
+      "source_manifest_sha256": "79ba3cd7be4f0cedfee0ad3f49f64e65cee948c057f9287a072ffb717a3104f5",
+      "model_manifest_sha256": "b9a506ac7e1c7c12806a0a2c17a054c880f251e7e85d730d2646ac6aaa0244f6",
+      "environment_sha256": "933915265e1a6fcff31ece2b117d8d097c1feec31099327481885a6c41c13bf6"
+    },
+    "stats": {
+      "offered": 366,
+      "completed": 366,
+      "slo_passed": 8,
+      "slo_success_fraction": 0.02185792349726776,
+      "cohort_goodput": 0.08888888888888889,
+      "wall_goodput": 0.06751453051479188,
+      "failure_fraction": 0.0,
+      "successful_ttft_p50_ms": 8166.85891355155,
+      "successful_ttft_p95_ms": 21816.29173149122,
+      "successful_e2e_p95_ms": 26763.213085505413,
+      "statuses": {
+        "succeeded": 366
+      }
+    },
+    "by_class": {
+      "S": {
+        "offered": 223,
+        "completed": 223,
+        "slo_passed": 3,
+        "slo_success_fraction": 0.013452914798206279,
+        "cohort_goodput": 0.03333333333333333,
+        "wall_goodput": 0.025317948943046956,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 7879.288399941288,
+        "successful_ttft_p95_ms": 21826.173293800093,
+        "successful_e2e_p95_ms": 24635.547989408944,
+        "statuses": {
+          "succeeded": 223
+        }
+      },
+      "P": {
+        "offered": 92,
+        "completed": 92,
+        "slo_passed": 5,
+        "slo_success_fraction": 0.05434782608695652,
+        "cohort_goodput": 0.05555555555555555,
+        "wall_goodput": 0.042196581571744926,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 8473.065831989516,
+        "successful_ttft_p95_ms": 21963.41559712892,
+        "successful_e2e_p95_ms": 24114.84271793161,
+        "statuses": {
+          "succeeded": 92
+        }
+      },
+      "D": {
+        "offered": 51,
+        "completed": 51,
+        "slo_passed": 0,
+        "slo_success_fraction": 0.0,
+        "cohort_goodput": 0.0,
+        "wall_goodput": 0.0,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 8064.599544974044,
+        "successful_ttft_p95_ms": 20876.782804494724,
+        "successful_e2e_p95_ms": 31281.395395519212,
+        "statuses": {
+          "succeeded": 51
+        }
+      }
+    }
+  },
+  {
+    "manifest": {
+      "run_id": "B2-near_capacity-1103",
+      "url": "http://127.0.0.1:8080/v1/completions",
+      "model": "admission-7b",
+      "trace_sha256": "edd6a19917ba633d2a4c9c43b21d057e71d6d0866ab8874e33b971202105e7c0",
+      "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+      "load": "near_capacity",
+      "seed": 1103,
+      "offered": 343,
+      "arrival_window_seconds": 90.0,
+      "total_seconds_including_drain": 124.91163472202606,
+      "send_lag_p95_ms": 1.9072993275536017,
+      "native_priority": false,
+      "config": {
+        "backend_url": "http://127.0.0.1:8000",
+        "model": "admission-7b",
+        "policy": "fcfs",
+        "max_inflight": 64,
+        "work_budget_ms": 45209.44578143134,
+        "queue_limit": 256,
+        "tau_ms": 250.0,
+        "aging_threshold_ms": 2000,
+        "queue_timeout_ms": 60000,
+        "backend_timeout_seconds": 120.0,
+        "max_prompt_tokens": 8192,
+        "max_output_tokens": 512,
+        "cost_intercept_ms": 0.01,
+        "prompt_ms_per_token": 0.07981239198237576,
+        "output_ms_per_token": 9.760444546014249,
+        "cancel_path_verified": true,
+        "event_log": "artifacts/formal/runs/B2-near_capacity-1103/gateway_events.jsonl"
+      },
+      "valid": true,
+      "invalid_reasons": [],
+      "statuses": {
+        "succeeded": 343
+      },
+      "frozen_config_sha256": "21ef442a102201e64ac9d00d8ca890674887cbfe2936b482374b984b4100c06a",
+      "gpu_uuid": "GPU-PUBLIC-DEVICE-0",
+      "slot": null,
+      "concurrent_gpu_trials": false,
+      "source_manifest_sha256": "79ba3cd7be4f0cedfee0ad3f49f64e65cee948c057f9287a072ffb717a3104f5",
+      "model_manifest_sha256": "b9a506ac7e1c7c12806a0a2c17a054c880f251e7e85d730d2646ac6aaa0244f6",
+      "environment_sha256": "933915265e1a6fcff31ece2b117d8d097c1feec31099327481885a6c41c13bf6"
+    },
+    "stats": {
+      "offered": 343,
+      "completed": 343,
+      "slo_passed": 21,
+      "slo_success_fraction": 0.061224489795918366,
+      "cohort_goodput": 0.23333333333333334,
+      "wall_goodput": 0.16811884694914656,
+      "failure_fraction": 0.0,
+      "successful_ttft_p50_ms": 9827.291534980759,
+      "successful_ttft_p95_ms": 27142.607184185177,
+      "successful_e2e_p95_ms": 31406.156447075773,
+      "statuses": {
+        "succeeded": 343
+      }
+    },
+    "by_class": {
+      "S": {
+        "offered": 188,
+        "completed": 188,
+        "slo_passed": 6,
+        "slo_success_fraction": 0.031914893617021274,
+        "cohort_goodput": 0.06666666666666667,
+        "wall_goodput": 0.04803395627118473,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 9137.429882015567,
+        "successful_ttft_p95_ms": 26806.611659226473,
+        "successful_e2e_p95_ms": 30050.29579118709,
+        "statuses": {
+          "succeeded": 188
+        }
+      },
+      "P": {
+        "offered": 100,
+        "completed": 100,
+        "slo_passed": 13,
+        "slo_success_fraction": 0.13,
+        "cohort_goodput": 0.14444444444444443,
+        "wall_goodput": 0.10407357192090025,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 10961.939467000775,
+        "successful_ttft_p95_ms": 27449.826828943333,
+        "successful_e2e_p95_ms": 30255.290077475365,
+        "statuses": {
+          "succeeded": 100
+        }
+      },
+      "D": {
+        "offered": 55,
+        "completed": 55,
+        "slo_passed": 2,
+        "slo_success_fraction": 0.03636363636363636,
+        "cohort_goodput": 0.022222222222222223,
+        "wall_goodput": 0.016011318757061577,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 10290.715279057622,
+        "successful_ttft_p95_ms": 27708.362262998704,
+        "successful_e2e_p95_ms": 37995.79677074216,
+        "statuses": {
+          "succeeded": 55
+        }
+      }
+    }
+  },
+  {
+    "manifest": {
+      "run_id": "P-burst-1101",
+      "url": "http://127.0.0.1:8080/v1/completions",
+      "model": "admission-7b",
+      "trace_sha256": "3d8416c7a36882ca58f195bb151c173fa29eaf040070172214794e1046dbe93c",
+      "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+      "load": "burst",
+      "seed": 1101,
+      "offered": 323,
+      "arrival_window_seconds": 90.0,
+      "total_seconds_including_drain": 117.3898517639609,
+      "send_lag_p95_ms": 2.0307329248609562,
+      "native_priority": false,
+      "config": {
+        "backend_url": "http://127.0.0.1:8000",
+        "model": "admission-7b",
+        "policy": "cost_aging",
+        "max_inflight": 64,
+        "work_budget_ms": 45209.44578143134,
+        "queue_limit": 256,
+        "tau_ms": 250.0,
+        "aging_threshold_ms": 2000,
+        "queue_timeout_ms": 60000,
+        "backend_timeout_seconds": 120.0,
+        "max_prompt_tokens": 8192,
+        "max_output_tokens": 512,
+        "cost_intercept_ms": 0.01,
+        "prompt_ms_per_token": 0.07981239198237576,
+        "output_ms_per_token": 9.760444546014249,
+        "cancel_path_verified": true,
+        "event_log": "artifacts/formal/runs/P-burst-1101/gateway_events.jsonl"
+      },
+      "valid": true,
+      "invalid_reasons": [],
+      "statuses": {
+        "succeeded": 323
+      },
+      "frozen_config_sha256": "21ef442a102201e64ac9d00d8ca890674887cbfe2936b482374b984b4100c06a",
+      "gpu_uuid": "GPU-PUBLIC-DEVICE-0",
+      "slot": null,
+      "concurrent_gpu_trials": false,
+      "source_manifest_sha256": "79ba3cd7be4f0cedfee0ad3f49f64e65cee948c057f9287a072ffb717a3104f5",
+      "model_manifest_sha256": "b9a506ac7e1c7c12806a0a2c17a054c880f251e7e85d730d2646ac6aaa0244f6",
+      "environment_sha256": "933915265e1a6fcff31ece2b117d8d097c1feec31099327481885a6c41c13bf6"
+    },
+    "stats": {
+      "offered": 323,
+      "completed": 323,
+      "slo_passed": 64,
+      "slo_success_fraction": 0.19814241486068113,
+      "cohort_goodput": 0.7111111111111111,
+      "wall_goodput": 0.5451919313152095,
+      "failure_fraction": 0.0,
+      "successful_ttft_p50_ms": 13311.873099999502,
+      "successful_ttft_p95_ms": 25721.924352180213,
+      "successful_e2e_p95_ms": 33616.1342889769,
+      "statuses": {
+        "succeeded": 323
+      }
+    },
+    "by_class": {
+      "S": {
+        "offered": 197,
+        "completed": 197,
+        "slo_passed": 35,
+        "slo_success_fraction": 0.17766497461928935,
+        "cohort_goodput": 0.3888888888888889,
+        "wall_goodput": 0.2981518374380052,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 11663.582663983107,
+        "successful_ttft_p95_ms": 25582.44769622106,
+        "successful_e2e_p95_ms": 28003.971739811823,
+        "statuses": {
+          "succeeded": 197
+        }
+      },
+      "P": {
+        "offered": 87,
+        "completed": 87,
+        "slo_passed": 25,
+        "slo_success_fraction": 0.28735632183908044,
+        "cohort_goodput": 0.2777777777777778,
+        "wall_goodput": 0.2129655981700037,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 12099.450006033294,
+        "successful_ttft_p95_ms": 25840.435291384347,
+        "successful_e2e_p95_ms": 28385.51716824295,
+        "statuses": {
+          "succeeded": 87
+        }
+      },
+      "D": {
+        "offered": 39,
+        "completed": 39,
+        "slo_passed": 4,
+        "slo_success_fraction": 0.10256410256410256,
+        "cohort_goodput": 0.044444444444444446,
+        "wall_goodput": 0.03407449570720059,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 21126.73702207394,
+        "successful_ttft_p95_ms": 25682.02075745212,
+        "successful_e2e_p95_ms": 38321.65714749135,
+        "statuses": {
+          "succeeded": 39
+        }
+      }
+    }
+  },
+  {
+    "manifest": {
+      "run_id": "P-burst-1102",
+      "url": "http://127.0.0.1:8080/v1/completions",
+      "model": "admission-7b",
+      "trace_sha256": "6679813b3d2a8a6f1eb5eefd1f06e0e60c2d2fbbe745b68e26f61f520a707608",
+      "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+      "load": "burst",
+      "seed": 1102,
+      "offered": 347,
+      "arrival_window_seconds": 90.0,
+      "total_seconds_including_drain": 119.55669794604182,
+      "send_lag_p95_ms": 1.8193052130495597,
+      "native_priority": false,
+      "config": {
+        "backend_url": "http://127.0.0.1:8000",
+        "model": "admission-7b",
+        "policy": "cost_aging",
+        "max_inflight": 64,
+        "work_budget_ms": 45209.44578143134,
+        "queue_limit": 256,
+        "tau_ms": 250.0,
+        "aging_threshold_ms": 2000,
+        "queue_timeout_ms": 60000,
+        "backend_timeout_seconds": 120.0,
+        "max_prompt_tokens": 8192,
+        "max_output_tokens": 512,
+        "cost_intercept_ms": 0.01,
+        "prompt_ms_per_token": 0.07981239198237576,
+        "output_ms_per_token": 9.760444546014249,
+        "cancel_path_verified": true,
+        "event_log": "artifacts/formal/runs/P-burst-1102/gateway_events.jsonl"
+      },
+      "valid": true,
+      "invalid_reasons": [],
+      "statuses": {
+        "succeeded": 347
+      },
+      "frozen_config_sha256": "21ef442a102201e64ac9d00d8ca890674887cbfe2936b482374b984b4100c06a",
+      "gpu_uuid": "GPU-PUBLIC-DEVICE-0",
+      "slot": null,
+      "concurrent_gpu_trials": false,
+      "source_manifest_sha256": "79ba3cd7be4f0cedfee0ad3f49f64e65cee948c057f9287a072ffb717a3104f5",
+      "model_manifest_sha256": "b9a506ac7e1c7c12806a0a2c17a054c880f251e7e85d730d2646ac6aaa0244f6",
+      "environment_sha256": "933915265e1a6fcff31ece2b117d8d097c1feec31099327481885a6c41c13bf6"
+    },
+    "stats": {
+      "offered": 347,
+      "completed": 347,
+      "slo_passed": 62,
+      "slo_success_fraction": 0.1786743515850144,
+      "cohort_goodput": 0.6888888888888889,
+      "wall_goodput": 0.5185824053787581,
+      "failure_fraction": 0.0,
+      "successful_ttft_p50_ms": 15227.403378929012,
+      "successful_ttft_p95_ms": 27546.524039492942,
+      "successful_e2e_p95_ms": 33139.23967041774,
+      "statuses": {
+        "succeeded": 347
+      }
+    },
+    "by_class": {
+      "S": {
+        "offered": 206,
+        "completed": 206,
+        "slo_passed": 29,
+        "slo_success_fraction": 0.1407766990291262,
+        "cohort_goodput": 0.32222222222222224,
+        "wall_goodput": 0.2425627379997417,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 15453.145871928427,
+        "successful_ttft_p95_ms": 27465.232918504626,
+        "successful_e2e_p95_ms": 31014.79818849475,
+        "statuses": {
+          "succeeded": 206
+        }
+      },
+      "P": {
+        "offered": 96,
+        "completed": 96,
+        "slo_passed": 27,
+        "slo_success_fraction": 0.28125,
+        "cohort_goodput": 0.3,
+        "wall_goodput": 0.22583427331010436,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 16045.787758019287,
+        "successful_ttft_p95_ms": 27608.3902590035,
+        "successful_e2e_p95_ms": 31421.760663681198,
+        "statuses": {
+          "succeeded": 96
+        }
+      },
+      "D": {
+        "offered": 45,
+        "completed": 45,
+        "slo_passed": 6,
+        "slo_success_fraction": 0.13333333333333333,
+        "cohort_goodput": 0.06666666666666667,
+        "wall_goodput": 0.05018539406891208,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 11487.359434948303,
+        "successful_ttft_p95_ms": 27379.29797382094,
+        "successful_e2e_p95_ms": 41585.33010694664,
+        "statuses": {
+          "succeeded": 45
+        }
+      }
+    }
+  },
+  {
+    "manifest": {
+      "run_id": "P-burst-1103",
+      "url": "http://127.0.0.1:8080/v1/completions",
+      "model": "admission-7b",
+      "trace_sha256": "f990f24cddb7c1f5a5c9aee27c16391af2508e501e4f8900e0a93053523d3d71",
+      "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+      "load": "burst",
+      "seed": 1103,
+      "offered": 333,
+      "arrival_window_seconds": 90.0,
+      "total_seconds_including_drain": 118.16377838293556,
+      "send_lag_p95_ms": 1.9308147067206958,
+      "native_priority": false,
+      "config": {
+        "backend_url": "http://127.0.0.1:8000",
+        "model": "admission-7b",
+        "policy": "cost_aging",
+        "max_inflight": 64,
+        "work_budget_ms": 45209.44578143134,
+        "queue_limit": 256,
+        "tau_ms": 250.0,
+        "aging_threshold_ms": 2000,
+        "queue_timeout_ms": 60000,
+        "backend_timeout_seconds": 120.0,
+        "max_prompt_tokens": 8192,
+        "max_output_tokens": 512,
+        "cost_intercept_ms": 0.01,
+        "prompt_ms_per_token": 0.07981239198237576,
+        "output_ms_per_token": 9.760444546014249,
+        "cancel_path_verified": true,
+        "event_log": "artifacts/formal/runs/P-burst-1103/gateway_events.jsonl"
+      },
+      "valid": true,
+      "invalid_reasons": [],
+      "statuses": {
+        "succeeded": 333
+      },
+      "frozen_config_sha256": "21ef442a102201e64ac9d00d8ca890674887cbfe2936b482374b984b4100c06a",
+      "gpu_uuid": "GPU-PUBLIC-DEVICE-0",
+      "slot": null,
+      "concurrent_gpu_trials": false,
+      "source_manifest_sha256": "79ba3cd7be4f0cedfee0ad3f49f64e65cee948c057f9287a072ffb717a3104f5",
+      "model_manifest_sha256": "b9a506ac7e1c7c12806a0a2c17a054c880f251e7e85d730d2646ac6aaa0244f6",
+      "environment_sha256": "933915265e1a6fcff31ece2b117d8d097c1feec31099327481885a6c41c13bf6"
+    },
+    "stats": {
+      "offered": 333,
+      "completed": 333,
+      "slo_passed": 71,
+      "slo_success_fraction": 0.2132132132132132,
+      "cohort_goodput": 0.7888888888888889,
+      "wall_goodput": 0.6008609488595479,
+      "failure_fraction": 0.0,
+      "successful_ttft_p50_ms": 10931.038236944005,
+      "successful_ttft_p95_ms": 31421.10601339955,
+      "successful_e2e_p95_ms": 36632.02591300942,
+      "statuses": {
+        "succeeded": 333
+      }
+    },
+    "by_class": {
+      "S": {
+        "offered": 203,
+        "completed": 203,
+        "slo_passed": 38,
+        "slo_success_fraction": 0.18719211822660098,
+        "cohort_goodput": 0.4222222222222222,
+        "wall_goodput": 0.32158755009384254,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 10058.797320933081,
+        "successful_ttft_p95_ms": 31197.118500829674,
+        "successful_e2e_p95_ms": 34262.561905174516,
+        "statuses": {
+          "succeeded": 203
+        }
+      },
+      "P": {
+        "offered": 80,
+        "completed": 80,
+        "slo_passed": 26,
+        "slo_success_fraction": 0.325,
+        "cohort_goodput": 0.28888888888888886,
+        "wall_goodput": 0.22003358690631333,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 12874.063043505885,
+        "successful_ttft_p95_ms": 31675.254061998567,
+        "successful_e2e_p95_ms": 35067.573682556394,
+        "statuses": {
+          "succeeded": 80
+        }
+      },
+      "D": {
+        "offered": 50,
+        "completed": 50,
+        "slo_passed": 7,
+        "slo_success_fraction": 0.14,
+        "cohort_goodput": 0.07777777777777778,
+        "wall_goodput": 0.05923981185939205,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 16926.966161991004,
+        "successful_ttft_p95_ms": 31218.887605250347,
+        "successful_e2e_p95_ms": 43922.648461547215,
+        "statuses": {
+          "succeeded": 50
+        }
+      }
+    }
+  },
+  {
+    "manifest": {
+      "run_id": "P-light-1101",
+      "url": "http://127.0.0.1:8080/v1/completions",
+      "model": "admission-7b",
+      "trace_sha256": "5664be7b2a790abaa713aa3514d8998c1eab41dd96bf3b68ddaebf7ea784fda7",
+      "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+      "load": "light",
+      "seed": 1101,
+      "offered": 175,
+      "arrival_window_seconds": 90.0,
+      "total_seconds_including_drain": 90.811668570037,
+      "send_lag_p95_ms": 1.6184032719152694,
+      "native_priority": false,
+      "config": {
+        "backend_url": "http://127.0.0.1:8000",
+        "model": "admission-7b",
+        "policy": "cost_aging",
+        "max_inflight": 64,
+        "work_budget_ms": 45209.44578143134,
+        "queue_limit": 256,
+        "tau_ms": 250.0,
+        "aging_threshold_ms": 2000,
+        "queue_timeout_ms": 60000,
+        "backend_timeout_seconds": 120.0,
+        "max_prompt_tokens": 8192,
+        "max_output_tokens": 512,
+        "cost_intercept_ms": 0.01,
+        "prompt_ms_per_token": 0.07981239198237576,
+        "output_ms_per_token": 9.760444546014249,
+        "cancel_path_verified": true,
+        "event_log": "artifacts/formal/runs/P-light-1101/gateway_events.jsonl"
+      },
+      "valid": true,
+      "invalid_reasons": [],
+      "statuses": {
+        "succeeded": 175
+      },
+      "frozen_config_sha256": "21ef442a102201e64ac9d00d8ca890674887cbfe2936b482374b984b4100c06a",
+      "gpu_uuid": "GPU-PUBLIC-DEVICE-0",
+      "slot": null,
+      "concurrent_gpu_trials": false,
+      "source_manifest_sha256": "79ba3cd7be4f0cedfee0ad3f49f64e65cee948c057f9287a072ffb717a3104f5",
+      "model_manifest_sha256": "b9a506ac7e1c7c12806a0a2c17a054c880f251e7e85d730d2646ac6aaa0244f6",
+      "environment_sha256": "933915265e1a6fcff31ece2b117d8d097c1feec31099327481885a6c41c13bf6"
+    },
+    "stats": {
+      "offered": 175,
+      "completed": 175,
+      "slo_passed": 151,
+      "slo_success_fraction": 0.8628571428571429,
+      "cohort_goodput": 1.6777777777777778,
+      "wall_goodput": 1.6627819131364572,
+      "failure_fraction": 0.0,
+      "successful_ttft_p50_ms": 92.01015206053853,
+      "successful_ttft_p95_ms": 965.6635796418409,
+      "successful_e2e_p95_ms": 8368.545596010517,
+      "statuses": {
+        "succeeded": 175
+      }
+    },
+    "by_class": {
+      "S": {
+        "offered": 111,
+        "completed": 111,
+        "slo_passed": 90,
+        "slo_success_fraction": 0.8108108108108109,
+        "cohort_goodput": 1.0,
+        "wall_goodput": 0.9910620674323255,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 85.89473203755915,
+        "successful_ttft_p95_ms": 929.3134949402884,
+        "successful_e2e_p95_ms": 3587.9484460456297,
+        "statuses": {
+          "succeeded": 111
+        }
+      },
+      "P": {
+        "offered": 37,
+        "completed": 37,
+        "slo_passed": 36,
+        "slo_success_fraction": 0.972972972972973,
+        "cohort_goodput": 0.4,
+        "wall_goodput": 0.3964248269729302,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 664.9739239364862,
+        "successful_ttft_p95_ms": 1338.0709241842824,
+        "successful_e2e_p95_ms": 4422.8411349700755,
+        "statuses": {
+          "succeeded": 37
+        }
+      },
+      "D": {
+        "offered": 27,
+        "completed": 27,
+        "slo_passed": 25,
+        "slo_success_fraction": 0.9259259259259259,
+        "cohort_goodput": 0.2777777777777778,
+        "wall_goodput": 0.2752950187312015,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 79.40086198505014,
+        "successful_ttft_p95_ms": 609.0039546717888,
+        "successful_e2e_p95_ms": 10040.392141602933,
+        "statuses": {
+          "succeeded": 27
+        }
+      }
+    }
+  },
+  {
+    "manifest": {
+      "run_id": "P-light-1102",
+      "url": "http://127.0.0.1:8080/v1/completions",
+      "model": "admission-7b",
+      "trace_sha256": "a93bfdadb94a9179763b291b79f4b16861218eff9c0d4bac3531ce21873b5684",
+      "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+      "load": "light",
+      "seed": 1102,
+      "offered": 184,
+      "arrival_window_seconds": 90.0,
+      "total_seconds_including_drain": 93.36350747407414,
+      "send_lag_p95_ms": 1.5093473392355783,
+      "native_priority": false,
+      "config": {
+        "backend_url": "http://127.0.0.1:8000",
+        "model": "admission-7b",
+        "policy": "cost_aging",
+        "max_inflight": 64,
+        "work_budget_ms": 45209.44578143134,
+        "queue_limit": 256,
+        "tau_ms": 250.0,
+        "aging_threshold_ms": 2000,
+        "queue_timeout_ms": 60000,
+        "backend_timeout_seconds": 120.0,
+        "max_prompt_tokens": 8192,
+        "max_output_tokens": 512,
+        "cost_intercept_ms": 0.01,
+        "prompt_ms_per_token": 0.07981239198237576,
+        "output_ms_per_token": 9.760444546014249,
+        "cancel_path_verified": true,
+        "event_log": "artifacts/formal/runs/P-light-1102/gateway_events.jsonl"
+      },
+      "valid": true,
+      "invalid_reasons": [],
+      "statuses": {
+        "succeeded": 184
+      },
+      "frozen_config_sha256": "21ef442a102201e64ac9d00d8ca890674887cbfe2936b482374b984b4100c06a",
+      "gpu_uuid": "GPU-PUBLIC-DEVICE-0",
+      "slot": null,
+      "concurrent_gpu_trials": false,
+      "source_manifest_sha256": "79ba3cd7be4f0cedfee0ad3f49f64e65cee948c057f9287a072ffb717a3104f5",
+      "model_manifest_sha256": "b9a506ac7e1c7c12806a0a2c17a054c880f251e7e85d730d2646ac6aaa0244f6",
+      "environment_sha256": "933915265e1a6fcff31ece2b117d8d097c1feec31099327481885a6c41c13bf6"
+    },
+    "stats": {
+      "offered": 184,
+      "completed": 184,
+      "slo_passed": 162,
+      "slo_success_fraction": 0.8804347826086957,
+      "cohort_goodput": 1.8,
+      "wall_goodput": 1.735153320423243,
+      "failure_fraction": 0.0,
+      "successful_ttft_p50_ms": 90.85275197867304,
+      "successful_ttft_p95_ms": 825.524139672052,
+      "successful_e2e_p95_ms": 7321.288865304085,
+      "statuses": {
+        "succeeded": 184
+      }
+    },
+    "by_class": {
+      "S": {
+        "offered": 116,
+        "completed": 116,
+        "slo_passed": 97,
+        "slo_success_fraction": 0.8362068965517241,
+        "cohort_goodput": 1.0777777777777777,
+        "wall_goodput": 1.0389498276608307,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 81.7175965057686,
+        "successful_ttft_p95_ms": 728.1374761951156,
+        "successful_e2e_p95_ms": 3935.4624139959924,
+        "statuses": {
+          "succeeded": 116
+        }
+      },
+      "P": {
+        "offered": 44,
+        "completed": 44,
+        "slo_passed": 44,
+        "slo_success_fraction": 1.0,
+        "cohort_goodput": 0.4888888888888889,
+        "wall_goodput": 0.47127621048532525,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 666.5078625665046,
+        "successful_ttft_p95_ms": 1018.9423652889673,
+        "successful_e2e_p95_ms": 4473.093117860844,
+        "statuses": {
+          "succeeded": 44
+        }
+      },
+      "D": {
+        "offered": 24,
+        "completed": 24,
+        "slo_passed": 21,
+        "slo_success_fraction": 0.875,
+        "cohort_goodput": 0.23333333333333334,
+        "wall_goodput": 0.22492728227708705,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 89.81577650411054,
+        "successful_ttft_p95_ms": 905.9368193149561,
+        "successful_e2e_p95_ms": 11217.856008635135,
+        "statuses": {
+          "succeeded": 24
+        }
+      }
+    }
+  },
+  {
+    "manifest": {
+      "run_id": "P-light-1103",
+      "url": "http://127.0.0.1:8080/v1/completions",
+      "model": "admission-7b",
+      "trace_sha256": "834a138a13406ed35d8110a5a1352262e3b15932a983085d68a5f129e1b6f8e4",
+      "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+      "load": "light",
+      "seed": 1103,
+      "offered": 171,
+      "arrival_window_seconds": 90.0,
+      "total_seconds_including_drain": 90.88213595398702,
+      "send_lag_p95_ms": 1.559991467624755,
+      "native_priority": false,
+      "config": {
+        "backend_url": "http://127.0.0.1:8000",
+        "model": "admission-7b",
+        "policy": "cost_aging",
+        "max_inflight": 64,
+        "work_budget_ms": 45209.44578143134,
+        "queue_limit": 256,
+        "tau_ms": 250.0,
+        "aging_threshold_ms": 2000,
+        "queue_timeout_ms": 60000,
+        "backend_timeout_seconds": 120.0,
+        "max_prompt_tokens": 8192,
+        "max_output_tokens": 512,
+        "cost_intercept_ms": 0.01,
+        "prompt_ms_per_token": 0.07981239198237576,
+        "output_ms_per_token": 9.760444546014249,
+        "cancel_path_verified": true,
+        "event_log": "artifacts/formal/runs/P-light-1103/gateway_events.jsonl"
+      },
+      "valid": true,
+      "invalid_reasons": [],
+      "statuses": {
+        "succeeded": 171
+      },
+      "frozen_config_sha256": "21ef442a102201e64ac9d00d8ca890674887cbfe2936b482374b984b4100c06a",
+      "gpu_uuid": "GPU-PUBLIC-DEVICE-0",
+      "slot": null,
+      "concurrent_gpu_trials": false,
+      "source_manifest_sha256": "79ba3cd7be4f0cedfee0ad3f49f64e65cee948c057f9287a072ffb717a3104f5",
+      "model_manifest_sha256": "b9a506ac7e1c7c12806a0a2c17a054c880f251e7e85d730d2646ac6aaa0244f6",
+      "environment_sha256": "933915265e1a6fcff31ece2b117d8d097c1feec31099327481885a6c41c13bf6"
+    },
+    "stats": {
+      "offered": 171,
+      "completed": 171,
+      "slo_passed": 124,
+      "slo_success_fraction": 0.7251461988304093,
+      "cohort_goodput": 1.3777777777777778,
+      "wall_goodput": 1.3644045520978987,
+      "failure_fraction": 0.0,
+      "successful_ttft_p50_ms": 281.747180968523,
+      "successful_ttft_p95_ms": 2373.6801604973152,
+      "successful_e2e_p95_ms": 9608.423175988719,
+      "statuses": {
+        "succeeded": 171
+      }
+    },
+    "by_class": {
+      "S": {
+        "offered": 95,
+        "completed": 95,
+        "slo_passed": 68,
+        "slo_success_fraction": 0.7157894736842105,
+        "cohort_goodput": 0.7555555555555555,
+        "wall_goodput": 0.7482218511504606,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 85.09563806001097,
+        "successful_ttft_p95_ms": 2024.380479508545,
+        "successful_e2e_p95_ms": 8374.488318001386,
+        "statuses": {
+          "succeeded": 95
+        }
+      },
+      "P": {
+        "offered": 54,
+        "completed": 54,
+        "slo_passed": 38,
+        "slo_success_fraction": 0.7037037037037037,
+        "cohort_goodput": 0.4222222222222222,
+        "wall_goodput": 0.4181239756429045,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 793.5329525498673,
+        "successful_ttft_p95_ms": 2971.1663457797818,
+        "successful_e2e_p95_ms": 8653.479279123712,
+        "statuses": {
+          "succeeded": 54
+        }
+      },
+      "D": {
+        "offered": 22,
+        "completed": 22,
+        "slo_passed": 18,
+        "slo_success_fraction": 0.8181818181818182,
+        "cohort_goodput": 0.2,
+        "wall_goodput": 0.1980587253045337,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 85.54997254395857,
+        "successful_ttft_p95_ms": 963.0793985852505,
+        "successful_e2e_p95_ms": 13869.317243952537,
+        "statuses": {
+          "succeeded": 22
+        }
+      }
+    }
+  },
+  {
+    "manifest": {
+      "run_id": "P-near_capacity-1101",
+      "url": "http://127.0.0.1:8080/v1/completions",
+      "model": "admission-7b",
+      "trace_sha256": "56aedb0da572c75bd4aee21e3bec0241454cc87238a622382a0154efe900c85a",
+      "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+      "load": "near_capacity",
+      "seed": 1101,
+      "offered": 338,
+      "arrival_window_seconds": 90.0,
+      "total_seconds_including_drain": 113.29784138908144,
+      "send_lag_p95_ms": 1.84161066476065,
+      "native_priority": false,
+      "config": {
+        "backend_url": "http://127.0.0.1:8000",
+        "model": "admission-7b",
+        "policy": "cost_aging",
+        "max_inflight": 64,
+        "work_budget_ms": 45209.44578143134,
+        "queue_limit": 256,
+        "tau_ms": 250.0,
+        "aging_threshold_ms": 2000,
+        "queue_timeout_ms": 60000,
+        "backend_timeout_seconds": 120.0,
+        "max_prompt_tokens": 8192,
+        "max_output_tokens": 512,
+        "cost_intercept_ms": 0.01,
+        "prompt_ms_per_token": 0.07981239198237576,
+        "output_ms_per_token": 9.760444546014249,
+        "cancel_path_verified": true,
+        "event_log": "artifacts/formal/runs/P-near_capacity-1101/gateway_events.jsonl"
+      },
+      "valid": true,
+      "invalid_reasons": [],
+      "statuses": {
+        "succeeded": 338
+      },
+      "frozen_config_sha256": "21ef442a102201e64ac9d00d8ca890674887cbfe2936b482374b984b4100c06a",
+      "gpu_uuid": "GPU-PUBLIC-DEVICE-0",
+      "slot": null,
+      "concurrent_gpu_trials": false,
+      "source_manifest_sha256": "79ba3cd7be4f0cedfee0ad3f49f64e65cee948c057f9287a072ffb717a3104f5",
+      "model_manifest_sha256": "b9a506ac7e1c7c12806a0a2c17a054c880f251e7e85d730d2646ac6aaa0244f6",
+      "environment_sha256": "933915265e1a6fcff31ece2b117d8d097c1feec31099327481885a6c41c13bf6"
+    },
+    "stats": {
+      "offered": 338,
+      "completed": 338,
+      "slo_passed": 68,
+      "slo_success_fraction": 0.20118343195266272,
+      "cohort_goodput": 0.7555555555555555,
+      "wall_goodput": 0.6001879573899207,
+      "failure_fraction": 0.0,
+      "successful_ttft_p50_ms": 1918.5003794846125,
+      "successful_ttft_p95_ms": 16364.616651373215,
+      "successful_e2e_p95_ms": 20749.27485253428,
+      "statuses": {
+        "succeeded": 338
+      }
+    },
+    "by_class": {
+      "S": {
+        "offered": 206,
+        "completed": 206,
+        "slo_passed": 35,
+        "slo_success_fraction": 0.16990291262135923,
+        "cohort_goodput": 0.3888888888888889,
+        "wall_goodput": 0.30892027218598855,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 1313.5632880148478,
+        "successful_ttft_p95_ms": 15926.82042371598,
+        "successful_e2e_p95_ms": 18896.114176197443,
+        "statuses": {
+          "succeeded": 206
+        }
+      },
+      "P": {
+        "offered": 87,
+        "completed": 87,
+        "slo_passed": 32,
+        "slo_success_fraction": 0.367816091954023,
+        "cohort_goodput": 0.35555555555555557,
+        "wall_goodput": 0.28244139171290383,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 2814.1447009984404,
+        "successful_ttft_p95_ms": 17005.390083021484,
+        "successful_e2e_p95_ms": 19455.930170568172,
+        "statuses": {
+          "succeeded": 87
+        }
+      },
+      "D": {
+        "offered": 45,
+        "completed": 45,
+        "slo_passed": 1,
+        "slo_success_fraction": 0.022222222222222223,
+        "cohort_goodput": 0.011111111111111112,
+        "wall_goodput": 0.008826293491028245,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 4162.276802933775,
+        "successful_ttft_p95_ms": 16085.317345592191,
+        "successful_e2e_p95_ms": 28245.59225265402,
+        "statuses": {
+          "succeeded": 45
+        }
+      }
+    }
+  },
+  {
+    "manifest": {
+      "run_id": "P-near_capacity-1102",
+      "url": "http://127.0.0.1:8080/v1/completions",
+      "model": "admission-7b",
+      "trace_sha256": "c56ceb8d5b5480f0a225955046eff60a3a2fa0d861ba2d79c112e776fe3ac317",
+      "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+      "load": "near_capacity",
+      "seed": 1102,
+      "offered": 366,
+      "arrival_window_seconds": 90.0,
+      "total_seconds_including_drain": 118.51572966296226,
+      "send_lag_p95_ms": 2.181053378819797,
+      "native_priority": false,
+      "config": {
+        "backend_url": "http://127.0.0.1:8000",
+        "model": "admission-7b",
+        "policy": "cost_aging",
+        "max_inflight": 64,
+        "work_budget_ms": 45209.44578143134,
+        "queue_limit": 256,
+        "tau_ms": 250.0,
+        "aging_threshold_ms": 2000,
+        "queue_timeout_ms": 60000,
+        "backend_timeout_seconds": 120.0,
+        "max_prompt_tokens": 8192,
+        "max_output_tokens": 512,
+        "cost_intercept_ms": 0.01,
+        "prompt_ms_per_token": 0.07981239198237576,
+        "output_ms_per_token": 9.760444546014249,
+        "cancel_path_verified": true,
+        "event_log": "artifacts/formal/runs/P-near_capacity-1102/gateway_events.jsonl"
+      },
+      "valid": true,
+      "invalid_reasons": [],
+      "statuses": {
+        "succeeded": 366
+      },
+      "frozen_config_sha256": "21ef442a102201e64ac9d00d8ca890674887cbfe2936b482374b984b4100c06a",
+      "gpu_uuid": "GPU-PUBLIC-DEVICE-0",
+      "slot": null,
+      "concurrent_gpu_trials": false,
+      "source_manifest_sha256": "79ba3cd7be4f0cedfee0ad3f49f64e65cee948c057f9287a072ffb717a3104f5",
+      "model_manifest_sha256": "b9a506ac7e1c7c12806a0a2c17a054c880f251e7e85d730d2646ac6aaa0244f6",
+      "environment_sha256": "933915265e1a6fcff31ece2b117d8d097c1feec31099327481885a6c41c13bf6"
+    },
+    "stats": {
+      "offered": 366,
+      "completed": 366,
+      "slo_passed": 8,
+      "slo_success_fraction": 0.02185792349726776,
+      "cohort_goodput": 0.08888888888888889,
+      "wall_goodput": 0.0675015883777671,
+      "failure_fraction": 0.0,
+      "successful_ttft_p50_ms": 8209.559407434426,
+      "successful_ttft_p95_ms": 21867.414526146604,
+      "successful_e2e_p95_ms": 26801.007930014748,
+      "statuses": {
+        "succeeded": 366
+      }
+    },
+    "by_class": {
+      "S": {
+        "offered": 223,
+        "completed": 223,
+        "slo_passed": 3,
+        "slo_success_fraction": 0.013452914798206279,
+        "cohort_goodput": 0.03333333333333333,
+        "wall_goodput": 0.02531309564166266,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 7832.095116958953,
+        "successful_ttft_p95_ms": 21875.741390197072,
+        "successful_e2e_p95_ms": 24707.698767620597,
+        "statuses": {
+          "succeeded": 223
+        }
+      },
+      "P": {
+        "offered": 92,
+        "completed": 92,
+        "slo_passed": 5,
+        "slo_success_fraction": 0.05434782608695652,
+        "cohort_goodput": 0.05555555555555555,
+        "wall_goodput": 0.042188492736104435,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 8463.263539480977,
+        "successful_ttft_p95_ms": 22018.468917330032,
+        "successful_e2e_p95_ms": 24032.78337545344,
+        "statuses": {
+          "succeeded": 92
+        }
+      },
+      "D": {
+        "offered": 51,
+        "completed": 51,
+        "slo_passed": 0,
+        "slo_success_fraction": 0.0,
+        "cohort_goodput": 0.0,
+        "wall_goodput": 0.0,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 8300.094697973691,
+        "successful_ttft_p95_ms": 20965.207536006346,
+        "successful_e2e_p95_ms": 31246.24953896273,
+        "statuses": {
+          "succeeded": 51
+        }
+      }
+    }
+  },
+  {
+    "manifest": {
+      "run_id": "P-near_capacity-1103",
+      "url": "http://127.0.0.1:8080/v1/completions",
+      "model": "admission-7b",
+      "trace_sha256": "edd6a19917ba633d2a4c9c43b21d057e71d6d0866ab8874e33b971202105e7c0",
+      "prompts_sha256": "eaa8d7ff35bc2c9fb40844e34f63157889b8a1d78340572f1d03a3af91f2e567",
+      "load": "near_capacity",
+      "seed": 1103,
+      "offered": 343,
+      "arrival_window_seconds": 90.0,
+      "total_seconds_including_drain": 124.67092376900837,
+      "send_lag_p95_ms": 2.1443180037028475,
+      "native_priority": false,
+      "config": {
+        "backend_url": "http://127.0.0.1:8000",
+        "model": "admission-7b",
+        "policy": "cost_aging",
+        "max_inflight": 64,
+        "work_budget_ms": 45209.44578143134,
+        "queue_limit": 256,
+        "tau_ms": 250.0,
+        "aging_threshold_ms": 2000,
+        "queue_timeout_ms": 60000,
+        "backend_timeout_seconds": 120.0,
+        "max_prompt_tokens": 8192,
+        "max_output_tokens": 512,
+        "cost_intercept_ms": 0.01,
+        "prompt_ms_per_token": 0.07981239198237576,
+        "output_ms_per_token": 9.760444546014249,
+        "cancel_path_verified": true,
+        "event_log": "artifacts/formal/runs/P-near_capacity-1103/gateway_events.jsonl"
+      },
+      "valid": true,
+      "invalid_reasons": [],
+      "statuses": {
+        "succeeded": 343
+      },
+      "frozen_config_sha256": "21ef442a102201e64ac9d00d8ca890674887cbfe2936b482374b984b4100c06a",
+      "gpu_uuid": "GPU-PUBLIC-DEVICE-0",
+      "slot": null,
+      "concurrent_gpu_trials": false,
+      "source_manifest_sha256": "79ba3cd7be4f0cedfee0ad3f49f64e65cee948c057f9287a072ffb717a3104f5",
+      "model_manifest_sha256": "b9a506ac7e1c7c12806a0a2c17a054c880f251e7e85d730d2646ac6aaa0244f6",
+      "environment_sha256": "933915265e1a6fcff31ece2b117d8d097c1feec31099327481885a6c41c13bf6"
+    },
+    "stats": {
+      "offered": 343,
+      "completed": 343,
+      "slo_passed": 22,
+      "slo_success_fraction": 0.0641399416909621,
+      "cohort_goodput": 0.24444444444444444,
+      "wall_goodput": 0.1764645623446397,
+      "failure_fraction": 0.0,
+      "successful_ttft_p50_ms": 9465.756277902983,
+      "successful_ttft_p95_ms": 27066.32424506824,
+      "successful_e2e_p95_ms": 31277.37034281017,
+      "statuses": {
+        "succeeded": 343
+      }
+    },
+    "by_class": {
+      "S": {
+        "offered": 188,
+        "completed": 188,
+        "slo_passed": 7,
+        "slo_success_fraction": 0.03723404255319149,
+        "cohort_goodput": 0.07777777777777778,
+        "wall_goodput": 0.056147815291476263,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 8983.190040977206,
+        "successful_ttft_p95_ms": 26697.675574099412,
+        "successful_e2e_p95_ms": 30028.160158969695,
+        "statuses": {
+          "succeeded": 188
+        }
+      },
+      "P": {
+        "offered": 100,
+        "completed": 100,
+        "slo_passed": 14,
+        "slo_success_fraction": 0.14,
+        "cohort_goodput": 0.15555555555555556,
+        "wall_goodput": 0.11229563058295253,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 10601.580889488105,
+        "successful_ttft_p95_ms": 27379.71499817213,
+        "successful_e2e_p95_ms": 30172.568061528727,
+        "statuses": {
+          "succeeded": 100
+        }
+      },
+      "D": {
+        "offered": 55,
+        "completed": 55,
+        "slo_passed": 1,
+        "slo_success_fraction": 0.01818181818181818,
+        "cohort_goodput": 0.011111111111111112,
+        "wall_goodput": 0.008021116470210895,
+        "failure_fraction": 0.0,
+        "successful_ttft_p50_ms": 9841.930127004161,
+        "successful_ttft_p95_ms": 27558.486826589793,
+        "successful_e2e_p95_ms": 37995.6358745927,
+        "statuses": {
+          "succeeded": 55
+        }
+      }
+    }
+  }
+]

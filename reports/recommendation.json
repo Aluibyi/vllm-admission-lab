@@ -1,0 +1,8 @@
+{
+  "recommended_backend": "B0 native FCFS under the common frozen engine settings",
+  "basis": "B1/B0 paired median relative SLO goodput change is zero for all three main loads. P/B0 is negative across all main near-capacity seeds and in the separate trace validation.",
+  "gateway_role": "Demonstrated bounded admission, streaming lifecycle and cancellation correctness; measured static budget is not the performance default.",
+  "new_model_or_workload_requires_recalibration": true,
+  "scope": "Single RTX 5090, Qwen2.5-7B-Instruct BF16, fixed synthetic workload and experimental SLOs.",
+  "deploys_service": false
+}

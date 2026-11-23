@@ -1,0 +1,11 @@
+{
+  "expected": 36,
+  "completed": 36,
+  "valid": 36,
+  "missing": [],
+  "unexpected": [],
+  "complete": true,
+  "evidence_roots": [
+    "artifacts/formal"
+  ]
+}

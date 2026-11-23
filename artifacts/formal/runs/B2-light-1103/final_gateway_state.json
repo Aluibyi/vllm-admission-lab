@@ -1,0 +1,17 @@
+{
+  "policy": "fcfs",
+  "queued": 0,
+  "paused": false,
+  "inflight": 0,
+  "reserved_cost_ms": 0.0,
+  "max_inflight": 64,
+  "work_budget_ms": 45209.44578143134,
+  "submitted": 171,
+  "admitted": 171,
+  "released": 171,
+  "cancelled": 0,
+  "queue_timeout": 0,
+  "rejected": 0,
+  "log_dropped": 0,
+  "cancel_path_verified": true
+}
